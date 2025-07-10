@@ -3,6 +3,7 @@ import RightArrow from "./right-arrow";
 import Leaf from "./leaf";
 import ScrollDown from "./scroll-down";
 import Hand from "./hand";
+import StarSquare from "./star-square";
 
 
 export{
@@ -10,5 +11,6 @@ export{
     RightArrow,
     Leaf,
     ScrollDown,
-    Hand
+    Hand,
+    StarSquare,
 }
