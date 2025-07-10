@@ -1,9 +1,10 @@
+import AboutUs from '@/components/about-us/Index'
 import React from 'react'
 
-const AboutUs = () => {
+function page() {
   return (
-    <div>AboutUs</div>
+    <AboutUs />
   )
 }
 
-export default AboutUs
+export default page
