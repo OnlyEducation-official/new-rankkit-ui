@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Hand } from "../svg";
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
+// Register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
 
 // images
 // import shape from "@/assets/img/inner-about/about/shape-1.png";
@@ -10,6 +15,49 @@ import ab_2 from "../../../public/assets/img/inner-about/about/about-3.jpg";
 import ab_3 from "../../../public/assets/img/inner-about/about/about-2.jpg";
 
 export default function AboutUsArea() {
+    const handRef = useRef(null);
+
+  useEffect(() => {
+    const element = handRef.current;
+
+    gsap.from(element, {
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%",
+        toggleActions: "play none none none"
+      },
+      rotation: 360, // Full rotation
+      duration: 1.5,
+      ease: "power2.out"
+    });
+
+  }, []);
+
+  const ropeRef = useRef(null);
+
+  useEffect(() => {
+    const element = ropeRef.current;
+
+    gsap.from(element, {
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%", // When top of element hits 80% of viewport
+        end: "top 30%",
+        toggleActions: "play none none none", // Play once when entering view
+        markers: false // Set to true for debugging positions
+      },
+      scale: 0.5, // Start scaled down
+      opacity: 0, // Start invisible
+      duration: 1.2,
+      ease: "back.out(1.7)", // Nice elastic effect
+      immediateRender: false
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    };
+  }, []);
+
   return (
     <div className="ab-about-area ab-about-mt pb-90 z-index-5">
       <div className="container container-1480">
@@ -47,7 +95,7 @@ export default function AboutUsArea() {
         <div id="about-info" className="row">
           <div className="col-xxl-9">
             <div className="ab-about-content p-relative">
-              <span>
+              <span ref={handRef}>
                 <Hand />
                 Hi!
               </span>
