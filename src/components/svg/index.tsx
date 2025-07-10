@@ -3,8 +3,10 @@ import RightArrow from "./right-arrow";
 import Leaf from "./leaf"
 
 
+
 export{
     ShapeTwo,
     RightArrow,
-    Leaf
+    Leaf,
+    ProjectShape,
 }
