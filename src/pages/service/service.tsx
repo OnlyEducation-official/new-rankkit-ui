@@ -2,10 +2,12 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "../../../public/assets/img/inner-service/service/service-1.jpg";
+import ser_img_1 from "../../../public/assets/img/inner-service/service/web developement.jpg";
 import ser_img_2 from "../../../public/assets/img/inner-service/service/service-2.jpg";
 import ser_img_3 from "../../../public/assets/img/inner-service/service/service-3.jpg";
 import ser_img_4 from "../../../public/assets/img/inner-service/service/service-4.jpg";
+import ser_img_5 from "../../../public/assets/img/inner-service/service/seo.jpg";
+import ser_img_6 from "../../../public/assets/img/inner-service/service/digital.jpg";
 import { RightArrow, ShapeTwo } from "@/components/svg";
 import Link from "next/link";
 
@@ -13,53 +15,92 @@ const service_data = [
   {
     id: 1,
     img: ser_img_1,
-    subtitle: "Design Studio",
-    title: "Logos and branding",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Creative Studio",
+    title: "Web Development",
+    text: "We create custom websites that are tailored to your business goals. Whether it’s a landing page, corporate site, or web app, we ensure performance, security, and seamless user experience.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Custom Website Development",
+      "Web Application Development",
+      "E-commerce Solutions",
+      "Maintenance & Support",
     ],
   },
   {
     id: 2,
     img: ser_img_2,
-    subtitle: "Design Studio",
-    title: "Web Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Creative Studio",
+    title: "Branding & Multimedia Designing",
+    text: "From logos to complete brand systems, we craft compelling visuals that express your identity and connect with your audience on every platform.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Logo & Brand Identity Design",
+      "Marketing Collaterals (brochures, posters, etc.)",
+      "Motion Graphics & Animations",
+      "Brand Style Guidelines",
     ],
   },
   {
     id: 3,
     img: ser_img_3,
-    subtitle: "Design Studio",
-    title: "Motion-Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Creative Studio",
+    title: "Media Production",
+    text: "We produce high-quality visual and audio content that captures attention and communicates your brand message across multiple platforms.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Video Production",
+      "Photography Services",
+      "Audio/Podcast Editing",
+      "Content Scripting & Storyboarding",
     ],
   },
   {
     id: 4,
     img: ser_img_4,
-    subtitle: "Design Studio",
-    title: "Web Analytics",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Creative Studio",
+    title: "CreatorNest",
+    text: "CreatorNest is our platform designed for content creators, influencers, and artists to manage their brand, monetize their audience, and collaborate creatively.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Creator Brand Development",
+      "Monetization Strategies",
+      "Digital Portfolio Setup",
+      "Campaign Management",
+    ],
+  },
+    {
+    id: 5,
+    img: ser_img_5,
+    subtitle: "Creative Studio",
+    title: "SEO Services",
+    text: "Our SEO experts optimize your online presence to drive organic traffic, improve ranking, and enhance user engagement through on-page and off-page strategies.",
+    lists: [
+      "Keyword Research & Optimization",
+      "On-Page & Technical SEO",
+      "SEO Audits & Reporting",
+      "Link Building",
+    ],
+  },
+     {
+    id: 6,
+    img: ser_img_6,
+    subtitle: "Creative Studio",
+    title: "Digital Marketing",
+    text: "We connect your brand with the right audience using data-driven campaigns, helping you reach your marketing goals through effective online channels.",
+    lists: [
+      "Social Media Marketing",
+      "Paid Advertising (Google, Meta, etc.)",
+      "Email Marketing",
+      "Analytics & Reporting",
+    ],
+  },
+       {
+    id: 7,
+    img: ser_img_4,
+    subtitle: "Creative Studio",
+    title: "WordPress Development",
+    text: "We develop dynamic WordPress websites with intuitive interfaces, optimized speed, and full scalability, tailored to your content needs and business goals.",
+    lists: [
+      "Custom WordPress Themes",
+      "CMS Optimization",
+      "WooCommerce Development",
+      "Plugin Integration & Customization",
     ],
   },
 ];
