@@ -14,4 +14,5 @@ export{
     ScrollDown,
     Hand,
     StarSquare,
+    ProjectShape
 }
