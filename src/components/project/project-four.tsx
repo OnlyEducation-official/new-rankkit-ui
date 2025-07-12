@@ -20,28 +20,59 @@ const project_data = [
     img_1: port_1,
     img_2: port_2,
     meta: "DEC 2024 . Creative",
-    title: "Pellente dapibus",
+    title: "Only Education",
+     slug: "only-education",
   },
   {
     id: 2,
     img_1: port_3,
     img_2: port_4,
     meta: "NOV 2024 . Creative",
-    title: "Chania tourism",
+    title: "NEET Gyan",
+        slug: "neet-gyan",
   },
   {
     id: 3,
     img_1: port_5,
     img_2: port_6,
     meta: "OCT 2024 . Creative",
-    title: "Fashion sentence",
+    title: "The Kerala Table",
+       slug: "the-kerala-table",
   },
   {
     id: 4,
     img_1: port_7,
     img_2: port_8,
     meta: "SEP 2024 . Creative",
-    title: "Fashion sentence",
+    title: "Only Engineering",
+  },
+    {
+    id: 5,
+    img_1: port_7,
+    img_2: port_8,
+    meta: "SEP 2024 . Creative",
+    title: "MBACET",
+  },
+      {
+    id: 6,
+    img_1: port_7,
+    img_2: port_8,
+    meta: "SEP 2024 . Creative",
+    title: "KALP",
+  },
+        {
+    id: 7,
+    img_1: port_7,
+    img_2: port_8,
+    meta: "SEP 2024 . Creative",
+    title: "Bake Ur Day",
+  },
+          {
+    id: 8,
+    img_1: port_7,
+    img_2: port_8,
+    meta: "SEP 2024 . Creative",
+    title: "Toy Room",
   },
 ];
 
@@ -60,10 +91,10 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                 <h4 className="tp-section-title-200 tp_reveal_anim">
                   Latest <span>Projects</span>
                 </h4>
-                <div className="tp-project-3-btn-box">
+                {/* <div className="tp-project-3-btn-box">
                   <Link
                     className="tp-btn-zikzak p-relative"
-                    href="/portfolio-wrapper"
+                    href={`/${slug}`}
                   >
                     <span className="zikzak-content">
                       See <br /> All Project
@@ -71,7 +102,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                     </span>
                     <ProjectShape />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -98,7 +129,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       </h4>
                       <Link
                         className="tp-btn-project-sm"
-                        href="/portfolio-details-1"
+                        href={`/portfolio/${item.slug}`}
                       >
                         See Project
                       </Link>
@@ -122,6 +153,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
