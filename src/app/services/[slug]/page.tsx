@@ -16,6 +16,13 @@ import branding_cover from "../../../../public/assets/img/inner-service/sercive-
 import seo_1 from "../../../../public/assets/img/inner-service/sercive-details/seo_1.png";
 import seo_2 from "../../../../public/assets/img/inner-service/sercive-details/seo_2.png";
 import seo_cover from "../../../../public/assets/img/inner-service/sercive-details/seo_cover.png";
+import branding_2 from "../../../../public/assets/img/inner-service/sercive-details/branding_2.png";
+import media_cover from "../../../../public/assets/img/inner-service/sercive-details/media_cover.png";
+import media_1 from "../../../../public/assets/img/inner-service/sercive-details/media_1.png";
+import media_2 from "../../../../public/assets/img/inner-service/sercive-details/media_2.png";
+import nest_cover from "../../../../public/assets/img/inner-service/sercive-details/nest_cover.png";
+import nest_1 from "../../../../public/assets/img/inner-service/sercive-details/nest_1.png";
+import nest_2 from "../../../../public/assets/img/inner-service/sercive-details/nest_2.png";
 
 type ServiceType = {
     title: string;
@@ -40,13 +47,14 @@ export type DataContentType =  {
     };
 }
 
+// Ready
 const creatorNest: DataContentType = {
     hero: {
         tagline: 'Marketing Agency',
         heading: 'CreatorNest',
         description: `Turn your content into a career with CreatorNest — from niche discovery and platform strategy to studio shoots, monetization funnels, and brand deals, we help you grow, stand out, and earn as a full-time creator.`,
     },
-    coverImg: coverImg,
+    coverImg: nest_cover,
     features: {
         description: `Explore our all-in-one creator enablement program — designed to support influencers with branding, content, collaborations, and monetization so they can build authentic influence and unlock consistent revenue streams.`,
         services: [
@@ -71,7 +79,7 @@ const creatorNest: DataContentType = {
                 description: `We set up creator funnels—from follower acquisition to DMs, email lists, and community building—so you're not just getting views, but building a loyal fanbase.`
             },
         ],
-        featureImg: web_service_2,
+        featureImg: nest_1,
     },
     whyChooseUs: {
         characteristics: [
@@ -96,17 +104,18 @@ const creatorNest: DataContentType = {
                 description: 'Get monthly reports with engagement breakdowns, content performance, and audience insights to optimize future content and growth strategies.'
             },
         ],
-        characteristicsImg: digimark_n1,
+        characteristicsImg: nest_2,
     },
 };
 
+// Ready
 const mediaProduction: DataContentType = {
     hero: {
         tagline: 'Media Production Agency',
         heading: 'Media Production',
         description: `Bring your brand to life with cinematic videos, product shoots, podcasts, and short-form content — our media production services cover everything from creative direction to editing, built to engage audiences and amplify your message visually.`,
     },
-    coverImg: coverImg,
+    coverImg: media_cover,
     features: {
         description: `Explore our full-spectrum media production offerings — crafted to deliver stunning visual narratives through brand films, reels, motion graphics, and more, tailored for today’s multi-platform digital landscape.`,
         services: [
@@ -131,7 +140,7 @@ const mediaProduction: DataContentType = {
                 description: 'Professional multi-camera coverage for launches, conferences, and celebrations with post-production highlights and trailers.'
             },
         ],
-        featureImg: web_service_2,
+        featureImg: media_2,
     },
     whyChooseUs: {
         characteristics: [
@@ -156,7 +165,7 @@ const mediaProduction: DataContentType = {
                 description: 'Thumbnails, intros, outros, metadata optimization, and publishing calendars to grow your YouTube presence strategically.'
             },
         ],
-        characteristicsImg: digimark_n1,
+        characteristicsImg: media_1,
     },
 };
 
@@ -221,66 +230,6 @@ const seo: DataContentType = {
     }
 };
 
-const branding: DataContentType = {
-    hero: {
-        tagline: 'Design Studio',
-        heading: 'Branding & Multimedia Designing',
-        description: `Craft powerful brand identities with our end-to-end Branding & Multimedia Design services — from logos and packaging to motion graphics, pitch decks, and social media creatives — designed to elevate your visual presence across all touchpoints.`,
-    },
-    coverImg: branding_cover,
-    features: {
-        description: `Discover a full suite of creative services tailored to build and scale your brand — from strategic logo design to immersive videos, social creatives, packaging, and UI design that drives engagement and recall.`,
-        services: [
-            {
-                title: 'Logo & Visual Identity Design:',
-                description: 'From logos to brand colors, typography, and design systems we create identities that are timeless, memorable, and scalable across platforms.'
-            },
-            {
-                title: 'Corporate Branding & Brand Guidelines:',
-                description: 'Develop a consistent brand voice and visual system with detailed brand books including tone, color usage, iconography, and layouts.'
-            },
-            {
-                title: 'Packaging & Print Design:',
-                description: 'Visually compelling packaging, brochures, business cards, and offline creatives that align with your brand and stand out in the market.'
-            },
-            {
-                title: 'Presentation & Pitch Deck Design:',
-                description: 'Investor-ready and client-facing pitch decks, reports, and presentations designed to communicate your value with clarity and impact.'
-            },
-            {
-                title: 'Digital Assets & Social Media Creatives:',
-                description: 'Scroll-stopping visuals, banners, thumbnails, and templates optimized for platforms like Instagram, Facebook, LinkedIn, and YouTube.'
-            },
-        ],
-        featureImg: branding_1,
-    },
-    whyChooseUs: {
-        characteristics: [
-            {
-                title: 'Video Editing & Motion Graphics:',
-                description: 'Professionally edited promotional videos, reels, explainer animations, and brand stories using Adobe Premiere, After Effects, and DaVinci Resolve.'
-            },
-            {
-                title: 'UI Design for Apps & Dashboards:',
-                description: 'Interface design systems for SaaS products, mobile apps, and enterprise tools blending functionality with visual appeal.'
-            },
-            {
-                title: 'Illustration & Iconography Services:',
-                description: 'Custom illustrations, icons, and vector graphics that add character and enhance user experience across your digital products.'
-            },
-            {
-                title: 'Event Branding & Environmental Graphics:',
-                description: 'Design for stalls, standees, backdrops, and event merchandise creating a cohesive brand experience during exhibitions or launches.'
-            },
-            {
-                title: 'Multimedia Strategy Consulting:',
-                description: 'We help you plan your creative direction across mediums balancing aesthetics, messaging, and user psychology for brand growth.'
-            },
-        ],
-        characteristicsImg: web_service_2,
-    }
-};
-
 // Ready
 const wordPress: DataContentType = {
     hero: {
@@ -339,6 +288,67 @@ const wordPress: DataContentType = {
             },
         ],
         characteristicsImg: wordpress_1,
+    }
+};
+
+// Ready
+const branding: DataContentType = {
+    hero: {
+        tagline: 'Design Studio',
+        heading: 'Branding & Multimedia Designing',
+        description: `Craft powerful brand identities with our end-to-end Branding & Multimedia Design services — from logos and packaging to motion graphics, pitch decks, and social media creatives — designed to elevate your visual presence across all touchpoints.`,
+    },
+    coverImg: branding_cover,
+    features: {
+        description: `Discover a full suite of creative services tailored to build and scale your brand — from strategic logo design to immersive videos, social creatives, packaging, and UI design that drives engagement and recall.`,
+        services: [
+            {
+                title: 'Logo & Visual Identity Design:',
+                description: 'From logos to brand colors, typography, and design systems we create identities that are timeless, memorable, and scalable across platforms.'
+            },
+            {
+                title: 'Corporate Branding & Brand Guidelines:',
+                description: 'Develop a consistent brand voice and visual system with detailed brand books including tone, color usage, iconography, and layouts.'
+            },
+            {
+                title: 'Packaging & Print Design:',
+                description: 'Visually compelling packaging, brochures, business cards, and offline creatives that align with your brand and stand out in the market.'
+            },
+            {
+                title: 'Presentation & Pitch Deck Design:',
+                description: 'Investor-ready and client-facing pitch decks, reports, and presentations designed to communicate your value with clarity and impact.'
+            },
+            {
+                title: 'Digital Assets & Social Media Creatives:',
+                description: 'Scroll-stopping visuals, banners, thumbnails, and templates optimized for platforms like Instagram, Facebook, LinkedIn, and YouTube.'
+            },
+        ],
+        featureImg: branding_1,
+    },
+    whyChooseUs: {
+        characteristics: [
+            {
+                title: 'Video Editing & Motion Graphics:',
+                description: 'Professionally edited promotional videos, reels, explainer animations, and brand stories using Adobe Premiere, After Effects, and DaVinci Resolve.'
+            },
+            {
+                title: 'UI Design for Apps & Dashboards:',
+                description: 'Interface design systems for SaaS products, mobile apps, and enterprise tools blending functionality with visual appeal.'
+            },
+            {
+                title: 'Illustration & Iconography Services:',
+                description: 'Custom illustrations, icons, and vector graphics that add character and enhance user experience across your digital products.'
+            },
+            {
+                title: 'Event Branding & Environmental Graphics:',
+                description: 'Design for stalls, standees, backdrops, and event merchandise creating a cohesive brand experience during exhibitions or launches.'
+            },
+            {
+                title: 'Multimedia Strategy Consulting:',
+                description: 'We help you plan your creative direction across mediums balancing aesthetics, messaging, and user psychology for brand growth.'
+            },
+        ],
+        characteristicsImg: branding_2,
     }
 };
 
@@ -483,6 +493,6 @@ const webDevelopment: DataContentType = {
 
 export default function page() {
     return (
-        <SingleServicePage data={seo} />
+        <SingleServicePage data={creatorNest} />
     )
 }
