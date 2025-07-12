@@ -3,8 +3,8 @@ import Image from "next/image";
 
 // images
 import ser_img_1 from "../../../public/assets/img/inner-service/service/web developement.jpg";
-import ser_img_2 from "../../../public/assets/img/inner-service/service/service-2.jpg";
-import ser_img_3 from "../../../public/assets/img/inner-service/service/service-3.jpg";
+import ser_img_2 from "../../../public/assets/img/inner-service/service/branding.jpg";
+import ser_img_3 from "../../../public/assets/img/inner-service/service/media.jpg";
 import ser_img_4 from "../../../public/assets/img/inner-service/service/service-4.jpg";
 import ser_img_5 from "../../../public/assets/img/inner-service/service/seo.jpg";
 import ser_img_6 from "../../../public/assets/img/inner-service/service/digital.jpg";
