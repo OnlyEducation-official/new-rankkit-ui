@@ -1,10 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
-// images
-import sv_1 from "../../../../../public/assets/img/inner-service/sercive-details/sv-details-1.jpg";
-import sv_2 from "../../../../../public/assets/img/inner-service/sercive-details/sv-details-2.jpg";
-import sv_3 from "../../../../../public/assets/img/inner-service/sercive-details/sv-details-3.jpg";
 import { DataContentType } from "../page";
 
 export default function ServiceDetailsArea({data}: {data: DataContentType}) {
@@ -103,14 +98,6 @@ export default function ServiceDetailsArea({data}: {data: DataContentType}) {
           </div>
           <div className="col-xl-7 col-lg-7">
             <div className="service-details__left-wrap">
-              {/* <div className="service-details__left-text pb-20 service-details__banner-text">
-                <p className="text-1 tp_title_anim fs-1">
-                 Why Choose Rankkit!
-                </p>
-                <p>
-                  {data?.whyChooseUs?.description}
-                </p>
-              </div> */}
               <div className="service-details__fea-list">
                 <ul>
                   {data?.whyChooseUs?.characteristics?.map((ele) => (
