@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Metadata } from "next";
+import PortfolioWrapperMain from "@/pages/portfolio/portfolio-wrapper-main";
 
-const Portfolio = () => {
+export const metadata: Metadata = {
+  title: "Liko - Portfolio Wrapper page",
+};
+
+const PortfolioWrapperPage = () => {
   return (
-    <div>Portfolio</div>
-  )
-}
+    <PortfolioWrapperMain/>
+  );
+};
 
-export default Portfolio
+export default PortfolioWrapperPage;
