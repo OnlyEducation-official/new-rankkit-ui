@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 // images
-import s_1 from "@/assets/img/home-01/service/service-icon-1.png";
-import s_2 from "@/assets/img/home-01/service/service-icon-2.png";
-import s_3 from "@/assets/img/home-01/service/service-icon-3.png";
+import s_1 from "../../../public/assets/img/home-01/service/service-icon-1.png";
+import s_2 from "../../../public/assets/img/home-01/service/service-icon-2.png";
+import s_3 from "../../../public/assets/img/home-01/service/service-icon-3.png";
 
 const service_data = [
   {

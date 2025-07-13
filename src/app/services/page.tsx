@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // import Wrapper from "@/layouts/wrapper";
 // import HeaderEleven from "@/layouts/headers/header-eleven";
 // import { ServiceItems } from "@/components/service/service-five";
-// import ServiceHero from "@/components/service/service-hero";
+import ServiceHero from "@/components/service/service-hero";
 // import ServiceSix from "@/components/service/service-six";
 // import { BrandItems } from "@/components/brand/brand-two";
 import LineImgSlider from "@/components/line-text/line-img-slider";
@@ -21,6 +21,7 @@ import { Leaf } from "@/components/svg";
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
 import Service from "@/pages/service/service";
+import { ServiceItems } from "@/components/service/service-five";
 
 const ServiceMain = () => {
   useScrollSmooth();
@@ -45,13 +46,12 @@ const ServiceMain = () => {
         <div id="smooth-content">
           <main>
             {/* service hero */}
-            {/* <ServiceHero /> */}
+            <ServiceHero />
             {/* service hero */}
 
             {/* service area */}
-            <div className="sv-service-style pb-70">
-              {/* <div className="container container-1530"> */}
-              <div>
+            <div className="tp-service-5-area sv-service-style pb-70">
+              <div className="container container-1530">
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tp-service-5-title-box mb-90">
@@ -68,12 +68,13 @@ const ServiceMain = () => {
                   </div>
                 </div>
                 <div className="">
-                  <Service />
+                  <ServiceItems />
+
                 </div>
               </div>
+                  <Service />
             </div>
             {/* service area */}
-
             {/* service area */}
             {/* <ServiceSix /> */}
             {/* service area */}
