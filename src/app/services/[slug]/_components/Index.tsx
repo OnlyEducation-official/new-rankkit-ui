@@ -15,15 +15,6 @@ import BigText from "@/components/about-us/big-text";
 import { DataContentType } from "../page";
 
 const SingleServicePage = ({data}: {data: DataContentType}) => {
-    useScrollSmooth();
-
-    useGSAP(() => {
-        const timer = setTimeout(() => {
-            charAnimation();
-            titleAnimation();
-        }, 100);
-        return () => clearTimeout(timer);
-    });
 
     return (
         <div id="smooth-wrapper">
@@ -37,10 +28,6 @@ const SingleServicePage = ({data}: {data: DataContentType}) => {
                     <BigText />
                     {/* big text */}
                 </main>
-
-                {/* footer area */}
-                <FooterTwo topCls="" />
-                {/* footer area */}
             </div>
         </div>
     );
