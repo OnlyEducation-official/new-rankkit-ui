@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { IProductDT } from "@/types/product-d-t";
-import { CartTwo, QuickViewEye, WishlistTwo } from "../svg";
+import { CartTwo, QuickViewEye, WishlistTwo } from "../svg copy";
 
 // prop type
 type IProps = {

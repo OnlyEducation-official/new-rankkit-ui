@@ -1,5 +1,5 @@
 import React from "react";
-import { Email, LocationTwo, Phone, User } from "../svg";
+import { Email, LocationTwo, Phone, User } from "../svg copy";
 import NiceSelect from "../ui/nice-select";
 
 export default function PersonalInfoForm() {

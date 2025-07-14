@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Social from "../social/social";
-import { Leaf } from "../svg";
+import { Leaf } from "../svg copy";
 
 // images
 import shape_1 from "@/assets/img/inner-about/hero/hero-2-shape-1.jpg";

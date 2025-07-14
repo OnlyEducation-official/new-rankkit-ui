@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import LineTextFour from "../line-text/line-text-4";
-import { UpArrow } from "../svg";
+import { UpArrow } from "../svg copy";
 import Link from "next/link";
 // images
 import p_img_1 from "@/assets/img/home-05/project/project-4.jpg";

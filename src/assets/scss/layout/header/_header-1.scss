@@ -60,8 +60,18 @@
 .tp-header{
     &-logo{
         & img{
-            width: 85px;
+            width: 150px;
             height: 100%;
+        }
+        & .logo-main-img {
+            width: auto !important;
+            height: 60px !important;
+            object-fit: contain;
+        }
+        & .logo-sticky-img {
+            width: auto !important;
+            height: 40px !important;
+            object-fit: contain;
         }
     }
     &-area{
@@ -131,4 +141,32 @@
             }
         }
     }
+}
+
+/* FINAL LOGO SIZE OVERRIDES - HIGHEST PRIORITY */
+.tp-header-logo img,
+.tp-header-area .tp-header-logo img,
+div.tp-header-logo img {
+    width: auto !important;
+    height: auto !important;
+    max-height: 60px !important;
+    min-height: 40px !important;
+}
+
+.tp-header-logo .logo-main-img,
+.tp-header-area .tp-header-logo .logo-main-img,
+div.tp-header-logo .logo-main-img {
+    width: auto !important;
+    height: 60px !important;
+    max-height: 60px !important;
+    object-fit: contain !important;
+}
+
+.tp-header-logo .logo-sticky-img,
+.tp-header-area .tp-header-logo .logo-sticky-img,
+div.tp-header-logo .logo-sticky-img {
+    width: auto !important;
+    height: 40px !important;
+    max-height: 40px !important;
+    object-fit: contain !important;
 }

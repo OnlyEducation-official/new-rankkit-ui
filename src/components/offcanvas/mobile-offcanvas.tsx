@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube } from "../svg";
+import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube } from "../svg copy";
 
 // images
 import logo from "@/assets/img/logo/logo.png";

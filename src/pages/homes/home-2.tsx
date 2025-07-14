@@ -59,7 +59,7 @@ const HomeTwoMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderTwo />
+
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -70,7 +70,7 @@ const HomeTwoMain = () => {
             {/* hero area end */}
 
             {/* about area start */}
-            <AboutOne/>
+            <AboutOne />
             {/* about area end */}
 
             {/* video area start */}
@@ -82,24 +82,24 @@ const HomeTwoMain = () => {
             {/* service area end */}
 
             {/* project area */}
-            <ProjectTwo/>
+            <ProjectTwo />
             {/* project area */}
 
             {/* award area */}
-            <AwardTwo/>
+            <AwardTwo />
             {/* award area */}
 
             {/* line text area */}
-            <LineText/>
+            <LineText />
             {/* line text area */}
 
             {/* instagram area */}
-            <InstagramArea/>
+            <InstagramArea />
             {/* instagram area */}
           </main>
 
           {/* footer area */}
-          <FooterTwo/>
+
           {/* footer area */}
         </div>
       </div>

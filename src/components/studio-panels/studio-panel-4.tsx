@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 
 import CounterTwo from "../counter/counter-two";
-import { NextArrow, PrevArrow } from "../svg";
+import { NextArrow, PrevArrow } from "../svg copy";
 import shape from "@/assets/img/home-08/testimonial/test-1.png";
 import logo from "@/assets/img/home-08/testimonial/test-logo-1.png";
 

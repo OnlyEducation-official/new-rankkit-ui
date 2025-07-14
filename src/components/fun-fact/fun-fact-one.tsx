@@ -1,6 +1,6 @@
 import React from "react";
 import CounterItem from "../counter/counter-item";
-import { Leaf } from "../svg";
+import { Leaf } from "../svg copy";
 
 const counter_data = [
   {

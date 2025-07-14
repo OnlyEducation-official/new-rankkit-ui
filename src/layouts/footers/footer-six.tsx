@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Email, Location } from "@/components/svg";
+import { Email, Location } from "@/components/svg copy";
 import logo from "@/assets/img/logo/logo-white.png";
 import payment from "@/assets/img/inner-shop/payment.png";
 import social_data from "@/data/social-data";

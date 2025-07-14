@@ -8,7 +8,7 @@ import ser_img_3 from "../../../public/assets/img/inner-service/service/media.jp
 import ser_img_4 from "../../../public/assets/img/inner-service/service/service-4.jpg";
 import ser_img_5 from "../../../public/assets/img/inner-service/service/seo.jpg";
 import ser_img_6 from "../../../public/assets/img/inner-service/service/digital.jpg";
-import { RightArrow, ShapeTwo } from "@/components/svg";
+import { RightArrow, ShapeTwo } from "@/components/svg copy";
 import Link from "next/link";
 
 const service_data = [

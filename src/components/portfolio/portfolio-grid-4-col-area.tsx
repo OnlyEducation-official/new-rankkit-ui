@@ -1,5 +1,5 @@
 import React from "react";
-import { UpArrow } from "../svg";
+import { UpArrow } from "../svg copy";
 import Image from "next/image";
 import Link from "next/link";
 

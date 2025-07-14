@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Instagram, Linkdin, Twitter } from "../svg";
+import { Facebook, Instagram, Linkdin, Twitter } from "../svg copy";
 
 const social_data = [
   {

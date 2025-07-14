@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { UpArrow } from "../svg";
+import { UpArrow } from "../svg copy";
 
 // images
 import brand_1 from "@/assets/img/inner-brand/brand-1.jpg";

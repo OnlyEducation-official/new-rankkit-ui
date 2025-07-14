@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Image, { StaticImageData } from "next/image";
 import Modal from "react-bootstrap/Modal";
 import { IProductDT } from "@/types/product-d-t";
-import { AskQuestion, Compare, Minus, Plus, WishlistTwo } from "../svg";
+import { AskQuestion, Compare, Minus, Plus, WishlistTwo } from "../svg copy";
 
 // prop type
 type IProps = {

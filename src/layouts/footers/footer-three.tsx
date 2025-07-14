@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import LineTextThree from '@/components/line-text/line-text-3';
 import logo from '@/assets/img/logo/logo-white.png';
-import { RightArrow } from '@/components/svg';
+import { RightArrow } from "@/components/svg copy";
 import Link from 'next/link';
 
 export default function FooterThree() {

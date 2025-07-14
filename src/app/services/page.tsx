@@ -15,13 +15,15 @@ import ServiceHero from "@/components/service/service-hero";
 // import { BrandItems } from "@/components/brand/brand-two";
 import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
-import { Leaf } from "@/components/svg";
+import { Leaf } from "@/components/svg copy";
 // import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
 import Service from "@/pages/service/service";
 import { ServiceItems } from "@/components/service/service-five";
+import HeaderOne from "@/layouts/headers/header-one";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const ServiceMain = () => {
   useScrollSmooth();
@@ -37,9 +39,9 @@ const ServiceMain = () => {
 
   return (
     // <Wrapper>
-      <>
+    <>
       {/* header area start */}
-      {/* <HeaderEleven /> */}
+      <HeaderOne />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -69,10 +71,9 @@ const ServiceMain = () => {
                 </div>
                 <div className="">
                   <ServiceItems />
-
                 </div>
               </div>
-                  <Service />
+              <Service />
             </div>
             {/* service area */}
             {/* service area */}
@@ -82,9 +83,7 @@ const ServiceMain = () => {
             {/* brand area */}
             <div className="tp-brand-4-area pt-120 pb-120">
               <div className="container">
-                <div className="row gx-0">
-                  {/* <BrandItems /> */}
-                </div>
+                <div className="row gx-0">{/* <BrandItems /> */}</div>
               </div>
             </div>
             {/* brand area */}
@@ -99,11 +98,11 @@ const ServiceMain = () => {
           </main>
 
           {/* footer area */}
-          {/* <FooterTwo topCls="" /> */}
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>
-      </>
+    </>
     // </Wrapper>
   );
 };

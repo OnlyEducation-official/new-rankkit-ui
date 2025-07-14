@@ -7,7 +7,7 @@ import { SwiperOptions } from "swiper/types";
 
 import BlogSidebar from "./blog-sidebar";
 import { blog_classic } from "@/data/blog-data";
-import { Quote, QuoteTwo } from "../svg";
+import { Quote, QuoteTwo } from "../svg copy";
 import usePagination from "@/hooks/use-pagination";
 import { IBlogDT } from "@/types/blog-d-t";
 import PaginationCom from "../ui/pagination";

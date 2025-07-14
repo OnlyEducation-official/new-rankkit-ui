@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperOptions } from "swiper/types";
 import { Navigation, Pagination } from "swiper/modules";
-import { ScrollDown } from "@/components/svg";
+import { ScrollDown } from "@/components/svg copy";
 import { blog_classic } from "@/data/blog-data";
 import { scroller } from "react-scroll";
 

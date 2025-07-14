@@ -16,8 +16,8 @@ import HomeTwelveMain from "@/pages/homes/home-12";
 export default function Home() {
   return (
     <>
-      {/* <HomeMain /> */}
-      <HomeTwoMain />
+      <HomeMain />
+      {/* <HomeTwoMain /> */}
       {/* <HomeThreeMain /> */}
       {/* <HomeFourMain /> */}
       {/* <HomeFiveMain /> */}

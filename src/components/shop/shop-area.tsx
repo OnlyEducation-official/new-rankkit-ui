@@ -5,7 +5,7 @@ import usePagination from "@/hooks/use-pagination";
 import product_data from "@/data/product-data";
 import ShopItem from "./shop-item";
 import Pagination from "../ui/pagination";
-import { Filter } from "../svg";
+import { Filter } from "../svg copy";
 import ProductModal from "../modal/product-modal";
 import { IProductDT } from "@/types/product-d-t";
 import NiceSelect from "../ui/nice-select";

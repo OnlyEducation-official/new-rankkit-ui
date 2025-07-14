@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import avatar from "@/assets/img/inner-blog/blog-sidebar/avatar/avata-2.jpg";
 import banner from "@/assets/img/inner-blog/blog-sidebar/banner/banner.jpg";
-import { Search } from "../svg";
+import { Search } from "../svg copy";
 import { blog_classic } from "@/data/blog-data";
 import Link from "next/link";
 

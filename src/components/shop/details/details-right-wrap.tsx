@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Minus, Plus } from "../../svg";
+import { Minus, Plus } from "../../svg copy";
 
 // images
 const variation_images = [
