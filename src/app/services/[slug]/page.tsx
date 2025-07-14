@@ -1,3 +1,5 @@
+// 'use client';
+
 import React from 'react'
 import SingleServicePage from './_components/Index'
 import { StaticImageData } from 'next/image';
