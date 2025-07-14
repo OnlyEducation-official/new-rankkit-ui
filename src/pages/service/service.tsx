@@ -38,7 +38,7 @@ const service_data = [
       "Motion Graphics & Animations",
       "Brand Style Guidelines",
     ],
-    url: "digital-marketing",
+    url: "Branding-Multimedia-Designing",
   },
   {
     id: 3,
