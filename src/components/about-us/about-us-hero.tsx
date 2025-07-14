@@ -1,6 +1,6 @@
 import React from "react";
 import { scroller } from "react-scroll";
-import { ScrollDown } from "../svg copy";
+import { ScrollDown } from "../svg";
 
 export default function AboutUsHero() {
   const scrollTo = () => {

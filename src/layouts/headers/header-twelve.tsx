@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, Search, Wishlist, Zero } from "@/components/svg copy";
+import { Menu, Search, Wishlist, Zero } from "@/components/svg";
 import useSticky from "@/hooks/use-sticky";
 import HeaderMenus from "./header-menus";
 import logo_1 from "@/assets/img/logo/logo.png";   

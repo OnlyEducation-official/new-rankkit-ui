@@ -1,6 +1,6 @@
 'use client';
 import React from "react";
-import { ArrowBg, RightArrowTwo } from "../svg copy";
+import { ArrowBg, RightArrowTwo } from "../svg";
 import Link from "next/link";
 
 export default function HeroBannerFour() {

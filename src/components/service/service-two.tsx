@@ -1,5 +1,5 @@
 import React from "react";
-import { Leaf } from "../svg copy";
+import { Leaf } from "../svg";
 import Image from "next/image";
 // service icon
 import ser_1 from "@/assets/img/home-02/service/sv-icon-1.png";

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { Leaf } from "../svg copy";
+import { Leaf } from "../svg";
 // instagram images
 import inst_1 from "@/assets/img/home-02/instagram/insta-inner-1.jpg";
 import inst_2 from "@/assets/img/home-02/instagram/insta-inner-2.jpg";

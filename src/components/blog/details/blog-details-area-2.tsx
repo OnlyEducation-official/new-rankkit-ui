@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { QuoteThree, Share, Tag } from "@/components/svg copy";
+import { QuoteThree, Share, Tag } from "@/components/svg";
 import BlogDetailsAuthor from "./blog-details-author";
 import BlogDetailsNavigation from "./blog-details-navigation";
 import BlogDetailsComments from "./blog-details-comments";

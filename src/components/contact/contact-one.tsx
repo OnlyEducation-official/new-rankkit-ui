@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ProjectShape, RightArrow } from "../svg copy";
+import { ProjectShape, RightArrow } from "../svg";
 import cta from '@/assets/img/home-03/cta/cta-1.png';
 import Link from "next/link";
 

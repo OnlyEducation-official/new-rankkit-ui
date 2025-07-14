@@ -1,5 +1,5 @@
 import React from "react";
-import { Address, Shipping } from "../svg copy";
+import { Address, Shipping } from "../svg";
 
 export default function ProfileAddress() {
   return (

@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Cart, MenuThree } from "@/components/svg copy";
+import { Cart, MenuThree } from "@/components/svg";
 import HeaderMenus from "./header-menus";
 import useSticky from "@/hooks/use-sticky";
 import logo from "@/assets/img/logo/logo.png";

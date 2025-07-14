@@ -8,7 +8,7 @@ import ser_img_3 from "../../../public/assets/img/inner-service/service/media.jp
 import ser_img_4 from "../../../public/assets/img/inner-service/service/service-4.jpg";
 import ser_img_5 from "../../../public/assets/img/inner-service/service/seo.jpg";
 import ser_img_6 from "../../../public/assets/img/inner-service/service/digital.jpg";
-import { RightArrow, ShapeTwo } from "@/components/svg copy";
+import { RightArrow, ShapeTwo } from "@/components/svg";
 import Link from "next/link";
 
 const service_data = [
@@ -24,6 +24,7 @@ const service_data = [
       "E-commerce Solutions",
       "Maintenance & Support",
     ],
+    url: "web-development",
   },
   {
     id: 2,
@@ -37,6 +38,7 @@ const service_data = [
       "Motion Graphics & Animations",
       "Brand Style Guidelines",
     ],
+    url: "Branding-Multimedia-Designing",
   },
   {
     id: 3,
@@ -50,6 +52,7 @@ const service_data = [
       "Audio/Podcast Editing",
       "Content Scripting & Storyboarding",
     ],
+    url: "media-production",
   },
   {
     id: 4,
@@ -63,6 +66,7 @@ const service_data = [
       "Digital Portfolio Setup",
       "Campaign Management",
     ],
+    url: "creator-nest",
   },
     {
     id: 5,
@@ -76,6 +80,7 @@ const service_data = [
       "SEO Audits & Reporting",
       "Link Building",
     ],
+    url: "seo-services",
   },
      {
     id: 6,
@@ -89,6 +94,7 @@ const service_data = [
       "Email Marketing",
       "Analytics & Reporting",
     ],
+    url: "digital-marketing",
   },
        {
     id: 7,
@@ -102,6 +108,7 @@ const service_data = [
       "WooCommerce Development",
       "Plugin Integration & Customization",
     ],
+    url: "wordpress-development",
   },
 ];
 
@@ -145,7 +152,7 @@ export default function Service() {
                       <div className="sv-service-btn">
                         <Link
                           className="tp-btn-zikzak zikzak-inner p-relative"
-                          href="/service-details"
+                          href={`/services/${item.url}`}
                         >
                           <span className="zikzak-content">
                             See <br /> Details

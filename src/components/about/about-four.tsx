@@ -1,5 +1,5 @@
 import React from "react";
-import { BallRound } from "../svg copy";
+import { BallRound } from "../svg";
 
 export default function AboutFour() {
   return (

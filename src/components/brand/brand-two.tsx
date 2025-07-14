@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Leaf } from "../svg copy";
+import { Leaf } from "../svg";
 // images
 import b_1 from "@/assets/img/home-04/brand/brand-1.png";
 import b_2 from "@/assets/img/home-04/brand/brand-2.png";

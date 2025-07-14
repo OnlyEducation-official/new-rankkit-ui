@@ -6,7 +6,7 @@ import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
 import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
 import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
 import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
-import { RightArrow, ShapeTwo } from "../svg copy";
+import { RightArrow, ShapeTwo } from "../svg";
 import Link from "next/link";
 
 const service_data = [
