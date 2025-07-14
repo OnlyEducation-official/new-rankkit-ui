@@ -89,10 +89,6 @@ const ServiceMain = () => {
             </div>
             {/* brand area */}
 
-            {/* line image slider  */}
-            <LineImgSlider />
-            {/* line image slider  */}
-
             {/* big text */}
             <BigText />
             {/* big text */}

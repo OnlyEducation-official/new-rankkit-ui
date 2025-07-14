@@ -494,7 +494,7 @@ const webDevelopment: DataContentType = {
 const serviceData: Record<string, DataContentType> = {
     "web-development": webDevelopment,
     "digital-marketing": digitalMarketing,
-    "branding": branding,
+    "Branding-Multimedia-Designing": branding,
     "seo-services": seo,
     "wordpress-development": wordPress,
     "media-production": mediaProduction,
