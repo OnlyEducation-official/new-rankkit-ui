@@ -45,6 +45,7 @@ const project_data = [
     img_2: port_8,
     meta: "SEP 2024 . Creative",
     title: "Only Engineering",
+    slug:"only-engineering"
   },
     {
     id: 5,
@@ -52,6 +53,7 @@ const project_data = [
     img_2: port_8,
     meta: "SEP 2024 . Creative",
     title: "MBACET",
+    slug:"mba-cet"
   },
       {
     id: 6,
@@ -59,6 +61,7 @@ const project_data = [
     img_2: port_8,
     meta: "SEP 2024 . Creative",
     title: "KALP",
+    slug:"kalp"
   },
         {
     id: 7,
@@ -66,6 +69,7 @@ const project_data = [
     img_2: port_8,
     meta: "SEP 2024 . Creative",
     title: "Bake Ur Day",
+    slug:"bake-ur-day"
   },
           {
     id: 8,
@@ -73,6 +77,7 @@ const project_data = [
     img_2: port_8,
     meta: "SEP 2024 . Creative",
     title: "Toy Room",
+    slug:"toy-room",
   },
 ];
 
