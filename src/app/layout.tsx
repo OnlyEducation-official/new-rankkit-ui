@@ -8,6 +8,8 @@ import {
 import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "./globals.scss";
+import FooterTwo from "@/components/footer/Index";
+import SmoothScrollerProvider from "@/components/layout/SmoothScrollerProvider";
 
 const gellery = localFont({
   src: [
@@ -83,7 +85,14 @@ export default function RootLayout({
         suppressHydrationWarning={true}
         className={`${gellery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
       >
-        <ThemeProvider defaultTheme="light">{children}</ThemeProvider>
+        <ThemeProvider defaultTheme="light">
+          <SmoothScrollerProvider>
+            <div>{children}</div>
+            <div>
+              <FooterTwo topCls="" />
+            </div>
+          </SmoothScrollerProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
