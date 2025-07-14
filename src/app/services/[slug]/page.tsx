@@ -23,6 +23,7 @@ import media_2 from "../../../../public/assets/img/inner-service/sercive-details
 import nest_cover from "../../../../public/assets/img/inner-service/sercive-details/nest_cover.png";
 import nest_1 from "../../../../public/assets/img/inner-service/sercive-details/nest_1.png";
 import nest_2 from "../../../../public/assets/img/inner-service/sercive-details/nest_2.png";
+import { notFound } from 'next/navigation';
 
 type ServiceType = {
     title: string;
@@ -490,9 +491,23 @@ const webDevelopment: DataContentType = {
     }
 };
 
+const serviceData: Record<string, DataContentType> = {
+    "web-development": webDevelopment,
+    "digital-marketing": digitalMarketing,
+    "branding": branding,
+    "seo-services": seo,
+    "wordpress-development": wordPress,
+    "media-production": mediaProduction,
+    "creator-nest": creatorNest,
+}
 
-export default function page() {
+
+export default function page({ params: {slug} }: { params: { slug: string } }) {
     return (
-        <SingleServicePage data={creatorNest} />
+        serviceData[slug] ? (
+            <SingleServicePage data={serviceData[slug]} />
+        ) : (
+            notFound()
+        )
     )
 }
