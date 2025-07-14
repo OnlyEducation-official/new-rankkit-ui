@@ -5,8 +5,7 @@ import { scroller } from 'react-scroll';
 import {Swiper,SwiperSlide} from 'swiper/react';
 import {Autoplay} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
-// import Image from 'next/image';
-// import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+
 
 // images
 import full_image from '../../../../../public/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg';
@@ -54,7 +53,7 @@ export default function PortfolioDetailsThreeArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">Mockups Google Pixel</h2>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">Only Education</h2>
                   </div>
                 </div>
             </div>

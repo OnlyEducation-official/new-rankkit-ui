@@ -21,7 +21,7 @@ const project_data = [
     img_2: port_2,
     meta: "DEC 2024 . Creative",
     title: "Only Education",
-     slug: "only-education",
+    slug: "only-education",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const project_data = [
     img_2: port_4,
     meta: "NOV 2024 . Creative",
     title: "NEET Gyan",
-        slug: "neet-gyan",
+    slug: "neet-gyan",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const project_data = [
     img_2: port_6,
     meta: "OCT 2024 . Creative",
     title: "The Kerala Table",
-       slug: "the-kerala-table",
+    slug: "the-kerala-table",
   },
   {
     id: 4,
@@ -117,7 +117,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <Image
                         src={item.img_1}
                         alt="port-img"
-                        style={{ height: "auto" }}
+                        style={{ height: "auto", width:"-webkit-fill-available" }}
                       />
                     </div>
                   </div>
