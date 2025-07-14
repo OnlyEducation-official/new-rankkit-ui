@@ -3,7 +3,7 @@
 import React from 'react';
 import portfolioData from './portfolio.json';
 import { scroller } from 'react-scroll';
-import { Leaf, ScrollDownTwo, UpArrowFour } from '@/components/svg';
+import { Leaf, ScrollDownTwo, UpArrowFour } from "@/components/svg";
 import Image from 'next/image';
 import useScrollSmooth from '@/hooks/use-scroll-smooth';
 import { useGSAP } from '@gsap/react';

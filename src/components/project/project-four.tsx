@@ -19,6 +19,7 @@ const project_data = [
     id: 1,
     img_1: port_1,
     img_2: port_2,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "DEC 2024 . Creative",
     title: "Only Education",
     slug: "only-education",
@@ -27,6 +28,7 @@ const project_data = [
     id: 2,
     img_1: port_3,
     img_2: port_4,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "NOV 2024 . Creative",
     title: "NEET Gyan",
     slug: "neet-gyan",
@@ -35,6 +37,7 @@ const project_data = [
     id: 3,
     img_1: port_5,
     img_2: port_6,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "OCT 2024 . Creative",
     title: "The Kerala Table",
     slug: "the-kerala-table",
@@ -43,6 +46,7 @@ const project_data = [
     id: 4,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "Only Engineering",
     slug: "only-engineering",
@@ -51,6 +55,7 @@ const project_data = [
     id: 5,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "MBACET",
     slug: "mba-cet",
@@ -59,6 +64,7 @@ const project_data = [
     id: 6,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/kalp.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "KALP",
     slug: "kalp",
@@ -67,6 +73,7 @@ const project_data = [
     id: 7,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/bake-ur-day.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "Bake Ur Day",
     slug: "bake-ur-day",
@@ -75,6 +82,7 @@ const project_data = [
     id: 8,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/toy-room.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "Toy Room",
     slug: "toy-room",
