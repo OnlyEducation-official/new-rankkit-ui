@@ -3,16 +3,16 @@
     "title": "Only Education",
     "slug": "only-education",
     "website": "https://onlyeducation.com",
-    "banner": "/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg",
+    "banner": "/assets/img/portfolio-img/onlyeducation.png",
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "Only Education was facing the complex task of asserting credibility and visibility in an oversaturated EdTech environment...",
+        "description": "Only Education was facing the complex task of asserting credibility and visibility in an oversaturated EdTech environment. Despite a growing user base, the brand lacked a centralised strategy to attract and retain students across disciplines. Their website did not reflect their pedagogical strengths, and the marketing funnel was fragmented, impacting both traffic and conversions.",
         "image": "/assets/img/inner-project/portfolio-details-3/portfolio-img-2.jpg"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit delivered a comprehensive brand overhaul with ad films, SEO, LinkedIn strategy, and automated marketing workflows...",
+        "description": "RankKit delivered a comprehensive brand overhaul by producing high-quality ad films, educational content, and professional branding videos. The team launched a robust SEO strategy, segmented social media campaigns, LinkedIn positioning, and automated marketing workflows through email and WhatsApp. Technical enhancements to the site structure, content architecture, and GMB optimisation were also undertaken to boost discoverability.",
         "images": [
           "/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg",
           "/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg"
@@ -20,25 +20,23 @@
       },
       {
         "heading": "The Impact",
-        "description": "Only Education saw a 65% uplift in keyword visibility, 90% boost in engagement, and a unified digital presence.",
-        "image": "/assets/img/inner-project/portfolio-details-3/portfolio-img-5.jpg"
-      }
+        "description": "Post-intervention, Only Education saw a 65% uplift in organic keyword visibility and a 50% rise in qualified web traffic. Social media engagement rates improved by 90%, and advertising efficiency increased through a 25% reduction in cost-per-acquisition. The result was a unified digital presence that positioned Only Education as a trustworthy and technologically advanced academic counselling platform in India."      }
     ]
   },
   {
     "title": "NEET Gyan",
     "slug": "neet-gyan",
-    "website": "https://neetgyan.com",
+    "website": "https://neetgyan.in",
     "banner": "/assets/img/inner-project/portfolio-details-3/neetgyan-banner.jpg",
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "NEETGyan, despite having substantial educational content, struggled to compete in the crowded NEET preparation market...",
+        "description": "NEETGyan, despite having substantial educational content, struggled to compete in the crowded NEET preparation market. The site lacked targeted SEO refinement, which hindered its ability to rank for high-volume exam queries. This led to missed opportunities in attracting organic student traffic and building authority.",
         "image": "/assets/img/inner-project/portfolio-details-3/neetgyan-1.jpg"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit implemented NEET-specific SEO, keyword targeting, Core Web Vitals improvement, and academic backlinks...",
+        "description": "RankKit implemented a precision-based SEO strategy tailored to NEET-specific searches. This included granular keyword research across Physics, Chemistry, and Biology topics, along with technical improvements such as mobile responsiveness, structured data integration, and Core Web Vitals optimisation. A focused backlink acquisition plan was also put into place through academic domains and student forums.",
         "images": [
           "/assets/img/inner-project/portfolio-details-3/neetgyan-2.jpg",
           "/assets/img/inner-project/portfolio-details-3/neetgyan-3.jpg"
@@ -46,15 +44,14 @@
       },
       {
         "heading": "The Impact",
-        "description": "50% organic traffic increase, top 3 keyword ranks, and surge in course sign-ups.",
-        "image": "/assets/img/inner-project/portfolio-details-3/neetgyan-4.jpg"
-      }
+        "description": "As a result, NEETGyan saw a 50% surge in organic traffic to its course and resource pages. The site achieved top-three rankings for several competitive keywords, driving substantial increases in mock test registrations and course sign-ups. This solidified NEETGyan’s position as a reliable digital destination for NEET aspirants."
+            }
     ]
   },
   {
     "title": "The Kerala Table",
     "slug": "the-kerala-table",
-    "website": "https://thekeralatable.in",
+    "website": "https://thekeralatable.com",
     "banner": "/assets/img/inner-project/portfolio-details-3/keralatable-banner.jpg",
     "sections": [
       {
