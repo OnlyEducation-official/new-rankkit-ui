@@ -12,8 +12,22 @@ import { Leaf } from "@/components/svg";
 // animation
 import Service from "@/pages/service/service";
 import { ServiceItems } from "@/components/service/service-five";
+import useScrollSmooth from "@/hooks/use-scroll-smooth";
+import { useGSAP } from "@gsap/react";
+import { charAnimation, fadeAnimation } from "@/utils/title-animation";
+import { servicePanel } from "@/utils/panel-animation";
 
 const ServiceMain = () => {
+  useScrollSmooth();
+
+  useGSAP(() => {
+    const timer = setTimeout(() => {
+      charAnimation();
+      fadeAnimation();
+      servicePanel();
+    }, 100);
+    return () => clearTimeout(timer);
+  });
   return (
       <>
       <div id="smooth-wrapper">
