@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { NextIcon, PrevIcon } from "../svg";
+import { NextIcon, PrevIcon } from "../svg copy";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { SwiperOptions } from "swiper/types";
@@ -8,19 +8,33 @@ import { SwiperOptions } from "swiper/types";
 const testimonial_data = [
   {
     id: 1,
-    desc: `“Nulla ut enim non magna placerat scelerisque sed eu dolor. Sed eu faucibus
-    turpis. Ut bibendum tempor tempus. Ut scelerisque est
-    posuere ex pretium laoreet.”`,
-    name: "Louis Fantun",
-    designation: "Designer",
+    desc: `“The Kerala Table underwent a sea change when it began working with RankKit. They brought our brand to life online with their incisive digital marketing and dramatic approach to content. Every picture, every campaign, and every reel produced outcomes. The growth was evident and steady and included both an increase in bookings and online orders.”`,
+    name: "Ranjit Nair",
+    designation: "Founder, The Kerala Table",
   },
   {
     id: 2,
-    desc: `“Nulla ut enim non magna placerat scelerisque sed eu dolor. Sed eu faucibus
-    turpis. Ut bibendum tempor tempus. Ut scelerisque est
-    posuere ex pretium laoreet.”`,
-    name: "Robert Smith",
-    designation: "Developer",
+    desc: `“RankKit made us stand out in a congested education industry. Our entire SEO approach was redesigned by their team, which also provided us with the necessary visibility to draw in serious pupils. Our queries followed, our ranks improved, and the effect was instantaneous..”`,
+    name: "Dweep Naag",
+    designation: "Founder, Only Engineering",
+  },
+  {
+    id: 3,
+    desc: `“From technical SEO to keyword mapping, RankKit managed everything with accuracy. We were able to rank better and faster thanks to their comprehension of search intent and material tailored to schooling. One of our best choices for long-term student acquisition, without a doubt.`,
+    name: "Tapan Mori",
+    designation: "Founder, MBA CET",
+  },
+  {
+    id: 4,
+    desc: `“RankKit developed a narrative rather than merely posting content. Their team recognized the tone of my brand and transformed it into a social media presence that engaged our target audience. Reach increased, engagement increased, and everything seemed purposeful and unified.`,
+    name: "Akash Mistry",
+    designation: "Founder, Maestro",
+  },
+  {
+    id: 3,
+    desc: `“RankKit made our brand concept a reality. Every material they provided, from campaign visuals and color strategy to logo redesign, was in line with our mission and identity. They stand out for their creativity, clarity, and consistency.`,
+    name: "Yash Shetty",
+    designation: "Founder, Ribbons & Balloons",
   },
 ];
 
@@ -56,7 +70,7 @@ const slider_setting: SwiperOptions = {
 };
 const TestimonialOne = () => {
   return (
-    <div className="tp-testimonial-area pb-120">
+    <div className="tp-testimonial-area pt-120 pb-120">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-10">

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FirstBracket, FirstBracketTwo, RightArrow, SvgBg } from "../svg";
+import { FirstBracket, FirstBracketTwo, RightArrow, SvgBg } from "../svg copy";
 import icon from '@/assets/img/home-03/service/sv-icon-1.png';
 
 const service_data = [

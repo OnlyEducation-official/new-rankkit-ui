@@ -10,7 +10,7 @@ import p_m_3 from "@/assets/img/inner-project/masonary/masonary-3.jpg";
 import p_m_4 from "@/assets/img/inner-project/masonary/masonary-4.jpg";
 import p_m_5 from "@/assets/img/inner-project/masonary/masonary-5.jpg";
 import p_m_6 from "@/assets/img/inner-project/masonary/masonary-6.jpg";
-import { UpArrow } from "../svg";
+import { UpArrow } from "../svg copy";
 
 // data
 const portfolio_masonry_data = [

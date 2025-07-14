@@ -1,6 +1,6 @@
 'use client';
 import React from "react";
-import { Leaf } from "../svg";
+import { Leaf } from "../svg copy";
 
 const VideoTwo = () => {
   

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Leaf, UpArrow, UpArrowTwo } from '@/components/svg';
+import { Leaf, UpArrow, UpArrowTwo } from "@/components/svg copy";
 
 // images 
 import port_d_1 from '@/assets/img/inner-project/showcase/showcase-details-2-2.jpg';

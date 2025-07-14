@@ -30,7 +30,7 @@ const HeroBannerOne = () => {
               </div>
               <div className="tp-hero-title-box text-center p-relative">
                 <h1 className="tp-hero-title tp_fade_bottom">
-                  <span className="p-relative">
+                  <span className="p-relative ">
                     Creative
                     <span className="tp-hero-subtitle d-none d-lg-block ">
                       Hello <br /> People! We’re
@@ -61,11 +61,12 @@ const HeroBannerOne = () => {
               </div>
             </div>
             <div className="tp-hero-content tp_fade_bottom">
-              <p>
-                <span></span>
-                Global digital design studio partnering with brands and
-                businesses that create exceptional experiences. We are design
-                and development agency based in Netherland.
+              <p className="text-center">
+                {/* <span></span> */}
+                An international digital Creative studio that collaborates with
+                companies and brands to build memorable experiences. We are
+                Media, design and development agency based in Navi Mumbai,
+                India.
               </p>
             </div>
           </div>

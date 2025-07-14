@@ -8,6 +8,10 @@ import {
 import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "./globals.scss";
+import HeaderTwo from "@/layouts/headers/header-two";
+import FooterTwo from "@/layouts/footers/footer-two";
+import HeaderOne from "@/layouts/headers/header-one";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const gellery = localFont({
   src: [

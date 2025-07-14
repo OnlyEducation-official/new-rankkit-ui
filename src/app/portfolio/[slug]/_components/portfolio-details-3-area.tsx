@@ -16,7 +16,7 @@ import port_img_2 from '../../../../../public/assets/img/inner-project/portfolio
 import port_img_3 from '../../../../../public/assets/img/inner-project/portfolio-details-3/portfolio-img-5.jpg';
 import port_img_4 from '../../../../../public/assets/img/inner-project/portfolio-details-3/portfolio-img-6.jpg';
 import port_img_5 from '../../../../../public/assets/img/inner-project/portfolio-details-3/portfolio-img-7.jpg';
-import { Leaf, ScrollDownTwo, UpArrowFour } from '@/components/svg';
+import { Leaf, ScrollDownTwo, UpArrowFour } from "@/components/svg copy";
 import Image from 'next/image';
 import useScrollSmooth from '@/hooks/use-scroll-smooth';
 import { useGSAP } from '@gsap/react';

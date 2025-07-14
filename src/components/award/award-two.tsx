@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import award_img from "@/assets/img/home-02/award/award-1.png";
 import Link from "next/link";
-import { UpArrow } from "../svg";
+import { UpArrow } from "../svg copy";
 
 export default function AwardTwo() {
   return (

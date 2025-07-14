@@ -13,25 +13,25 @@ const service_data = [
   {
     id: 1,
     title: "VIDEO CREATION",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
+    desc: "Every frame is planned with intent. From scripting to final edit, we design stories that move your audience and your brand.",
     icon: s_1,
   },
   {
     id: 2,
     title: "ART DIRECTION",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
+    desc: "More than just visuals, it’s how ideas feel. We guide the creative energy to align with your brand’s soul and strategy.",
     icon: s_2,
   },
   {
     id: 3,
-    title: "MOTION DESIGN",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
+    title: "WEB DESIGN",
+    desc: "We don’t just build websites. We create experiences that are functional, beautiful, and built to keep users engaged.",
     icon: s_3,
   },
   {
     id: 4,
     title: "BRAND STRATEGY",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
+    desc: "Smart thinking meets sharp positioning. We map your voice, vision, and value to a brand blueprint that actually works.",
     icon: s_4,
   },
 ];

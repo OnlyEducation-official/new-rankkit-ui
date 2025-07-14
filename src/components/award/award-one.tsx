@@ -9,7 +9,7 @@ import a_3 from "@/assets/img/home-01/award/award-3.png";
 import a_4 from "@/assets/img/home-01/award/award-4.png";
 import a_5 from "@/assets/img/home-01/award/award-5.png";
 import a_6 from "@/assets/img/home-01/award/award-6.png";
-import { Leaf } from "../svg";
+import { Leaf } from "../svg copy";
 
 const award_data = [
   {

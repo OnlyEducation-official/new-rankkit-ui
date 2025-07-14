@@ -20,7 +20,7 @@ export default function FooterOne() {
   return (
     <footer>
       {/* footer area start */}
-      <div className="tp-footer-area black-bg pt-90">
+      <div className="tp-footer-area h-[80vh] black-bg pt-90">
         <div className="container-fluid">
           <div className="tp-footer-wrap">
             <div className="row align-items-end">

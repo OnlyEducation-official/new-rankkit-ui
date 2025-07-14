@@ -5,7 +5,7 @@ import {Swiper,SwiperSlide} from 'swiper/react';
 import {Autoplay} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
 import Social from '@/components/social/social';
-import { Dots } from '@/components/svg';
+import { Dots } from "@/components/svg copy";
 
 // images
 import full_img from '@/assets/img/inner-project/custom/custom-big-1.jpg';

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import { ProjectShape, RightArrow } from "../svg";
+import { ProjectShape, RightArrow } from "../svg copy";
 // images
 import port_1 from "../../../public/assets/img/home-03/portfolio/port-1.jpg";
 import port_2 from "../../../public/assets/img/home-03/portfolio/port-2.jpg";
@@ -19,58 +19,66 @@ const project_data = [
     id: 1,
     img_1: port_1,
     img_2: port_2,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "DEC 2024 . Creative",
     title: "Only Education",
-     slug: "only-education",
+    slug: "only-education",
   },
   {
     id: 2,
     img_1: port_3,
     img_2: port_4,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "NOV 2024 . Creative",
     title: "NEET Gyan",
-        slug: "neet-gyan",
+    slug: "neet-gyan",
   },
   {
     id: 3,
     img_1: port_5,
     img_2: port_6,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "OCT 2024 . Creative",
     title: "The Kerala Table",
-       slug: "the-kerala-table",
+    slug: "the-kerala-table",
   },
   {
     id: 4,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "Only Engineering",
   },
-    {
+  {
     id: 5,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/the-kerala-table.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "MBACET",
   },
-      {
+  {
     id: 6,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/kalp.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "KALP",
   },
-        {
+  {
     id: 7,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/bake-ur-day.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "Bake Ur Day",
   },
-          {
+  {
     id: 8,
     img_1: port_7,
     img_2: port_8,
+    video_1: "/videos/toy-room.mp4", // Add video path
     meta: "SEP 2024 . Creative",
     title: "Toy Room",
   },
@@ -82,7 +90,11 @@ type IProps = {
 };
 export default function ProjectFour({ style_2 = false }: IProps) {
   return (
-    <div className={`tp-project-3-area ${style_2 ? "pt-60 pw-project-style" : "pt-130 black-bg"}`}>
+    <div
+      className={`tp-project-3-area ${
+        style_2 ? "pt-60 pw-project-style" : "pt-130 black-bg"
+      }`}
+    >
       <div className="container container-1720">
         {!style_2 && (
           <div className="row justify-content-center">
@@ -113,12 +125,28 @@ export default function ProjectFour({ style_2 = false }: IProps) {
               <div key={item.id} className="tp-project-3-wrap">
                 <div className="row">
                   <div className="col-xl-4 col-lg-4 col-md-6">
-                    <div className="tp-project-3-thumb pro-img-1">
-                      <Image
-                        src={item.img_1}
-                        alt="port-img"
-                        style={{ height: "auto" }}
-                      />
+                    <div className="tp-project-3-thumb w-100 h-100 pro-img-1">
+                      <video
+                        src={item.video_1}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        style={{
+                          width: "100%",
+                          height: "auto",
+                          objectFit: "cover",
+                          display: "block",
+                        }}
+                      >
+                        {/* <source type="video/mp4" /> */}
+                        {/* Fallback image if video fails to load */}
+                        <Image
+                          src={item.img_2}
+                          alt="port-img"
+                          style={{ height: "auto" }}
+                        />
+                      </video>
                     </div>
                   </div>
                   <div className="col-xl-4 col-lg-4 col-md-12 order-1 order-lg-0">
@@ -153,7 +181,6 @@ export default function ProjectFour({ style_2 = false }: IProps) {
           </div>
         </div>
       </div>
-
     </div>
   );
 }

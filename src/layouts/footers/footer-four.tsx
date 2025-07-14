@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import logo from '@/assets/img/logo/logo-white.png';
-import { RightArrow, SvgBgSm } from '@/components/svg';
+import { RightArrow, SvgBgSm } from "@/components/svg copy";
 import Link from 'next/link';
 
 export default function FooterFour() {

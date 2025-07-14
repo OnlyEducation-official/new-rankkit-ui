@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import HeaderMenus from "./header-menus";
-import { Cart } from "@/components/svg";
+import { Cart } from "@/components/svg copy";
 import useSticky from "@/hooks/use-sticky";
 import logo from '@/assets/img/logo/logo-white.png';
 import CartOffcanvas from "@/components/offcanvas/cart-offcanvas";

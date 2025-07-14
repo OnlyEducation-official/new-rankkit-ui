@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Share } from "../../svg";
+import { Share } from "../../svg copy";
 import Link from "next/link";
 // images
 import port_1 from "@/assets/img/home-09/slider/slider-1.jpg";

@@ -1,5 +1,5 @@
 import React from "react";
-import { CloseEye, OpenEye } from "../svg";
+import { CloseEye, OpenEye } from "../svg copy";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
