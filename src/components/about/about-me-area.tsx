@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Hand } from "../svg copy";
+import { Hand } from "../svg";
 import shape from '@/assets/img/inner-about/about/shape-1.png';
 
 export default function AboutMeArea() {

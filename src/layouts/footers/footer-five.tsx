@@ -1,5 +1,5 @@
 import React from "react";
-import { UpArrow } from "@/components/svg copy";
+import { UpArrow } from "@/components/svg";
 
 export default function FooterFive() {
   return (

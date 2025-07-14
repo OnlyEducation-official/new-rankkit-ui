@@ -1,5 +1,5 @@
 import React from "react";
-import { UpArrow } from "../svg copy";
+import { UpArrow } from "../svg";
 import Link from "next/link";
 
 const pricing_data = [

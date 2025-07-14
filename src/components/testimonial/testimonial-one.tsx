@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { NextIcon, PrevIcon } from "../svg copy";
+import { NextIcon, PrevIcon } from "../svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { SwiperOptions } from "swiper/types";

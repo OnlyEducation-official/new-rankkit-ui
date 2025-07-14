@@ -1,6 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { StarSquare } from "../svg copy";
+import { StarSquare } from "../svg";
 
 // marquee text
 const marquee_text = [

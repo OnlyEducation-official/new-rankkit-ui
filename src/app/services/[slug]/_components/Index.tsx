@@ -9,22 +9,21 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import ServiceDetailsArea from "./service-details-area";
 // animation
-import { charAnimation, titleAnimation } from "@/utils/title-animation";
+import { charAnimation, fadeAnimation, titleAnimation } from "@/utils/title-animation";
 import FooterTwo from "@/components/footer/Index";
 import BigText from "@/components/about-us/big-text";
 import { DataContentType } from "../page";
+import { servicePanel } from "@/utils/panel-animation";
 
 const SingleServicePage = ({data}: {data: DataContentType}) => {
-    useScrollSmooth();
-
-    useGSAP(() => {
-        const timer = setTimeout(() => {
-            charAnimation();
-            titleAnimation();
-        }, 100);
-        return () => clearTimeout(timer);
-    });
-
+    // useScrollSmooth();
+    // useGSAP(() => {
+    //     const timer = setTimeout(() => {
+    //         charAnimation();
+    //         titleAnimation();
+    //     }, 100);
+    //     return () => clearTimeout(timer);
+    // });
     return (
         <div id="smooth-wrapper">
             <div id="smooth-content">
@@ -37,10 +36,6 @@ const SingleServicePage = ({data}: {data: DataContentType}) => {
                     <BigText />
                     {/* big text */}
                 </main>
-
-                {/* footer area */}
-                <FooterTwo topCls="" />
-                {/* footer area */}
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Reply } from "@/components/svg copy";
+import { Reply } from "@/components/svg";
 import avatar_1 from "@/assets/img/inner-blog/blog-details/avatar/avatar-3.jpg";
 import avatar_2 from "@/assets/img/inner-blog/blog-details/avatar/avatar-4.jpg";
 

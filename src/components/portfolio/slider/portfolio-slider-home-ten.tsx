@@ -3,7 +3,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
-import { DownArrow } from "../../svg copy";
+import { DownArrow } from "../../svg";
 
 // images
 import port_sm_1 from "@/assets/img/home-11/port-sm-1.jpg";

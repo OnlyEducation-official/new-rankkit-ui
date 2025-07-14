@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Download, GiftBox, Orders, WishlistThree } from "../svg copy";
+import { Download, GiftBox, Orders, WishlistThree } from "../svg";
 import avatar from '@/assets/img/avatar/avata.jpg';
 
 export default function AccountProfile() {

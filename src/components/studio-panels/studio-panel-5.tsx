@@ -1,5 +1,5 @@
 import React from "react";
-import { NextArrowTwo } from "../svg copy";
+import { NextArrowTwo } from "../svg";
 import Link from "next/link";
 
 export default function StudioPanelFive() {
