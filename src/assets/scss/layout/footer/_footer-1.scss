@@ -3,6 +3,23 @@
 /*----------------------------------------*/
 /*  6.1 Footer Style 1
 /*----------------------------------------*/
+.tp-footer-area {
+  overflow: hidden; /* or auto */
+  
+}
+
+
+@media (max-width: 720.98px) {
+ 
+  .tp-footer-area{
+    height: auto;
+  }
+}
+@media (max-width: 991.98px) {
+  .custom-mt-sm {
+    margin-top: 90px;
+  }
+}
 
 .counter-row{
     counter-reset: count;

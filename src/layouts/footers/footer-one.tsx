@@ -6,21 +6,22 @@ import { footerOneAnimation, footerTwoAnimation } from "@/utils/footer-anim";
 import logo from "@/assets/img/logo/logo-white.png";
 
 const footer_links = [
-  { link: "/portfolio-details-1", title: "Projects" },
-  { link: "/service", title: "What we do" },
-  { link: "/about-us", title: "About" },
-  { link: "/blog-modern", title: "Blog" },
-  { link: "/contact", title: "Contact" },
+  { link: "/", title: "Home" },
+  { link: "/portfolio", title: "Projects" },
+  { link: "/services", title: "What we do" },
+
+  // { link: "/blog-modern", title: "Blog" },
+  { link: "/contact-us", title: "Contact" },
 ];
 export default function FooterOne() {
   const [isActive, setIsActive] = React.useState(false);
   useEffect(() => {
     footerOneAnimation();
-  },[])
+  }, []);
   return (
     <footer>
       {/* footer area start */}
-      <div className="tp-footer-area h-[80vh] black-bg pt-90">
+      <div className="tp-footer-area  black-bg  d-flex flex-column justify-content-between  py-5">
         <div className="container-fluid">
           <div className="tp-footer-wrap">
             <div className="row align-items-end">
@@ -55,8 +56,8 @@ export default function FooterOne() {
                         </h4>
                         <div className="tp-footer-widget-info">
                           <div className="tp-footer-widget-info-mail tp_fade_bottom">
-                            <a href="mailto:contact@agency.com">
-                              contact@agency.com
+                            <a href="mailto:contact@rankkit.in">
+                              contact@rankkit.in
                             </a>
                           </div>
                           <div className="tp-footer-widget-info-location tp_fade_bottom">
@@ -64,7 +65,11 @@ export default function FooterOne() {
                               href="https://www.google.com/maps/@54.581385,-101.7562167,7.5z?entry=ttu"
                               target="_blank"
                             >
-                              389 Street St. <br /> San Francisco,CA
+                              Ambience Court, 1702-1703,
+                              <br /> Phase 2, Sector 19E. <br /> San Navi
+                              Mumbai, MH, India
+                              <br />
+                              400703
                             </a>
                           </div>
                         </div>
@@ -77,17 +82,17 @@ export default function FooterOne() {
                         </h4>
                         <ul className="tp-footer-widget-social">
                           <li className="tp_fade_bottom">
-                            <a href="#">Facebook</a>
+                            <a href="">Facebook</a>
                           </li>
                           <li className="tp_fade_bottom">
                             <a href="#">Instagram</a>
                           </li>
-                          <li className="tp_fade_bottom">
+                          {/* <li className="tp_fade_bottom">
                             <a href="#">Behance</a>
                           </li>
                           <li className="tp_fade_bottom">
                             <a href="#">Dribbble</a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -100,7 +105,7 @@ export default function FooterOne() {
         {/* footer area end */}
 
         {/* copyright area start */}
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className="tp-copyright-wrap">
             <div className="row align-items-center">
               <div className="col-xl-6 col-md-4">
@@ -120,7 +125,7 @@ export default function FooterOne() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* copyright area end */}
       </div>
       {/* footer area start */}
