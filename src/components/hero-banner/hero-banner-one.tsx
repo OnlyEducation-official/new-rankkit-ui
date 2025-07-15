@@ -3,14 +3,14 @@ import React from "react";
 import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import { fadeAnimation } from "@/utils/title-animation";
+import { TrustedByBusinessesCard } from "../TailwindOnly/social-proof-container";
 
 const HeroBannerOne = () => {
   useGSAP(() => {
-  
-    if(typeof window !== 'undefined'){
+    if (typeof window !== "undefined") {
       setTimeout(() => {
         fadeAnimation();
-      },100)
+      }, 100);
     }
   }, {});
   return (
@@ -60,16 +60,9 @@ const HeroBannerOne = () => {
                 </h1>
               </div>
             </div>
-            <div className="tp-hero-content tp_fade_bottom">
-              <p className="text-center">
-                {/* <span></span> */}
-                An international digital Creative studio that collaborates with
-                companies and brands to build memorable experiences. We are
-                Media, design and development agency based in Navi Mumbai,
-                India.
-              </p>
-            </div>
+            <div className="tp-hero-content tp_fade_bottom"></div>
           </div>
+          <TrustedByBusinessesCard />
         </div>
         <div className="row">
           <div className="col-xl-12"></div>
