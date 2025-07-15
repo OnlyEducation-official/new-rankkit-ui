@@ -3,11 +3,11 @@ import Image from "next/image";
 
 import { ProjectShape, RightArrow } from "../svg";
 // images
-import port_1 from "../../../public/assets/img/home-03/portfolio/port-3.jpg";
+import port_1 from "../../../public/assets/img/portfolio-img/only.gif";
 import port_2 from "../../../public/assets/img/portfolio-img/123123.svg";
-import port_3 from "../../../public/assets/img/home-03/portfolio/port-3.jpg";
+import port_3 from "../../../public/assets/img/portfolio-img/only.gif";
 import port_4 from "../../../public/assets/img/home-03/portfolio/port-4.jpg";
-import port_5 from "../../../public/assets/img/home-03/portfolio/port-5.jpg";
+import port_5 from "../../../public/assets/img/portfolio-img/gif.gif";
 import port_6 from "../../../public/assets/img/portfolio-img/tktlogoas.png";
 import port_7 from "../../../public/assets/img/home-03/portfolio/port-7.jpg";
 import port_8 from "../../../public/assets/img/home-03/portfolio/port-8.jpg";
@@ -131,22 +131,22 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                 <div className="row">
                   <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="tp-project-3-thumb pro-img-1">
-                      {/* <Image
-                        src={item.img_1}
+                      <Image
+                        src={item.img_2}
                         alt="port-img"
                         style={{
                           height: "auto",
                           width: "-webkit-fill-available",
                         }}
-                      /> */}
-                      <video
+                      />
+                      {/* <video
                         src="/assets/img/portfolio-img/tkt reel.mp4"
                         autoPlay
                         muted
                         loop
                         playsInline
                         style={{ width: "100%", height: "auto", borderRadius:"20px", objectFit:"cover"}}
-                      ></video>
+                      ></video> */}
                     </div>
                   </div>
                   <div className="col-xl-4 col-lg-4 col-md-12 order-1 order-lg-0">
@@ -169,7 +169,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                   <div className="col-xl-4 col-lg-4 col-md-6 order-0 order-lg-0">
                     <div className="tp-project-3-thumb pro-img-2">
                       <Image
-                        src={item.img_2}
+                        src={item.img_1}
                         alt="port-img"
                         style={{ height: "auto" }}
                       />
