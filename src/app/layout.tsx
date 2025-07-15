@@ -8,7 +8,7 @@ import {
 import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "./globals.scss";
-import FooterTwo from "@/components/footer/Index";
+
 
 const gellery = localFont({
   src: [

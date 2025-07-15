@@ -57,18 +57,15 @@ const ServiceMain = () => {
                 </div>
                 <div className="">
                   <ServiceItems />
-
                 </div>
               </div>
-                  <Service />
+              <Service />
             </div>
 
             {/* brand area */}
             <div className="tp-brand-4-area pt-120 pb-120">
               <div className="container">
-                <div className="row gx-0">
-                  {/* <BrandItems /> */}
-                </div>
+                <div className="row gx-0">{/* <BrandItems /> */}</div>
               </div>
             </div>
             {/* brand area */}

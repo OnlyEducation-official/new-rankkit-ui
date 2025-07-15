@@ -16,14 +16,14 @@ import { DataContentType } from "../page";
 import { servicePanel } from "@/utils/panel-animation";
 
 const SingleServicePage = ({data}: {data: DataContentType}) => {
-    useGSAP(() => {
-    const timer = setTimeout(() => {
-      charAnimation();
-      fadeAnimation();
-      servicePanel();
-    }, 100);
-    return () => clearTimeout(timer);
-  });
+    // useScrollSmooth();
+    // useGSAP(() => {
+    //     const timer = setTimeout(() => {
+    //         charAnimation();
+    //         titleAnimation();
+    //     }, 100);
+    //     return () => clearTimeout(timer);
+    // });
     return (
         <div id="smooth-wrapper">
             <div id="smooth-content">

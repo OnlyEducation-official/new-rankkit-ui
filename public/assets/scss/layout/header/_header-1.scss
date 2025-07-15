@@ -57,10 +57,15 @@
 .logo-2{
     display: none;
 }
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .tp-header{
     &-logo{
         & img{
-            width: 85px;
+            width: 120px;
             height: 100%;
         }
     }
