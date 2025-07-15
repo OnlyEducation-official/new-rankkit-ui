@@ -39,7 +39,9 @@
         justify-content: center;
     }
     &-shape{
+
         &-1{
+           
             position: absolute;
             top: -13%;
             left: 27%;
@@ -59,6 +61,7 @@
             right: -80px;
             z-index: -1;
             & img{
+                
                 animation: rotate2 5s linear infinite;
             }
             @media #{$xxxl,$xxl,$xl}{
@@ -76,7 +79,7 @@
         font-weight: 400;
         font-size: 220px;
         line-height: 1;
-        color: var(--tp-common-black);
+        color: $arapawa-700;
         font-family: var(--tp-ff-gallery);
         @media #{$xxxl,$xxl}{
             font-size: 175px;
@@ -506,7 +509,7 @@
         font-weight: 600;
         line-height: 1;
         letter-spacing: -11.4px;
-        color: var(--tp-common-black);
+        color: [];
         font-family: var(--tp-ff-body);
         white-space: nowrap;
         margin-bottom: 20px;
