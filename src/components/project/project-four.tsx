@@ -3,89 +3,107 @@ import Image from "next/image";
 
 import { ProjectShape, RightArrow } from "../svg";
 // images
-import port_1 from "../../../public/assets/img/portfolio-img/only.gif";
-import port_2 from "../../../public/assets/img/portfolio-img/123123.svg";
-import port_3 from "../../../public/assets/img/portfolio-img/only.gif";
-import port_4 from "../../../public/assets/img/home-03/portfolio/port-4.jpg";
-import port_5 from "../../../public/assets/img/portfolio-img/gif.gif";
-import port_6 from "../../../public/assets/img/portfolio-img/tktlogoas.png";
-import port_7 from "../../../public/assets/img/home-03/portfolio/port-7.jpg";
-import port_8 from "../../../public/assets/img/home-03/portfolio/port-8.jpg";
+import port_1 from "../../../public/assets/img/portfolio-img/123123.svg";
+import port_2 from "../../../public/assets/img/portfolio-img/education.gif";
+
+import port_3 from "../../../public/assets/img/portfolio-img/neetgyaan.png";
+import port_4 from "../../../public/assets/img/portfolio-img/neet.gif";
+
+import port_5 from "../../../public/assets/img/portfolio-img/tktlogoas.png";
+import port_6 from "../../../public/assets/img/portfolio-img/gif.gif";
+
+import port_7 from "../../../public/assets/img/portfolio-img/only engineering.png";
+import port_8 from "../../../public/assets/img/portfolio-img/only.gif";
+
+import port_9 from "../../../public/assets/img/portfolio-img/MbACETlogo.png";
+import port_10 from "../../../public/assets/img/portfolio-img/mba.gif";
+
+import port_11 from "../../../public/assets/img/portfolio-img/kalp.png";
+import port_12 from "../../../public/assets/img/portfolio-img/kalp.gif";
+
+import port_13 from "../../../public/assets/img/portfolio-img/bake.png";
+import port_14 from "../../../public/assets/img/portfolio-img/bake.gif";
+
+import port_15 from "../../../public/assets/img/portfolio-img/toyroomlogo.png";
+import port_16 from "../../../public/assets/img/portfolio-img/toy.gif";
+
 import Link from "next/link";
+import HeaderTwo from "@/layouts/headers/header-two";
+import FooterOne from "@/layouts/footers/footer-one";
 
 // portfolio data
 const project_data = [
   {
-    id: 1,
-    img_1: port_1,
-    img_2: port_2,
-    video_1: "/videos/the-kerala-table.mp4", // Add video path
-    meta: "DEC 2024 . Creative",
-    title: "Only Education",
-    slug: "only-education",
-  },
-  {
-    id: 2,
-    img_1: port_3,
-    img_2: port_4,
-    video_1: "/videos/the-kerala-table.mp4", // Add video path
-    meta: "NOV 2024 . Creative",
-    title: "NEET Gyan",
-    slug: "neet-gyan",
-  },
-  {
-    id: 3,
-    img_1: port_5,
-    img_2: port_6,
-    video_1: "/videos/the-kerala-table.mp4", // Add video path
-    meta: "OCT 2024 . Creative",
-    title: "The Kerala Table",
-    slug: "the-kerala-table",
-  },
-  {
-    id: 4,
-    img_1: port_7,
-    img_2: port_8,
-    video_1: "/videos/the-kerala-table.mp4", // Add video path
-    meta: "SEP 2024 . Creative",
-    title: "Only Engineering",
-    slug: "only-engineering",
-  },
-  {
-    id: 5,
-    img_1: port_7,
-    img_2: port_8,
-    video_1: "/videos/the-kerala-table.mp4", // Add video path
-    meta: "SEP 2024 . Creative",
-    title: "MBACET",
-    slug: "mba-cet",
-  },
-  {
-    id: 6,
-    img_1: port_7,
-    img_2: port_8,
-    video_1: "/videos/kalp.mp4", // Add video path
-    meta: "SEP 2024 . Creative",
-    title: "KALP",
-    slug: "kalp",
-  },
-  {
     id: 7,
-    img_1: port_7,
-    img_2: port_8,
-    video_1: "/videos/bake-ur-day.mp4", // Add video path
+    img_1: port_13,
+    img_2: port_14,
+    video_1: "/videos/bake-ur-day.mp4",
     meta: "SEP 2024 . Creative",
     title: "Bake Ur Day",
     slug: "bake-ur-day",
   },
   {
+    id: 1,
+    img_1: port_1,
+    img_2: port_2,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "DEC 2024 . Creative",
+    title: "Only Education",
+    slug: "only-education",
+  },
+  {
+    id: 6,
+    img_1: port_11,
+    img_2: port_12,
+    video_1: "/videos/kalp.mp4",
+    meta: "SEP 2024 . Creative",
+    title: "KALP",
+    slug: "kalp",
+  },
+  {
     id: 8,
-    img_1: port_7,
-    img_2: port_8,
-    video_1: "/videos/toy-room.mp4", // Add video path
+    img_1: port_15,
+    img_2: port_16,
+    video_1: "/videos/toy-room.mp4",
     meta: "SEP 2024 . Creative",
     title: "Toy Room",
     slug: "toy-room",
+  },
+  {
+    id: 3,
+    img_1: port_5,
+    img_2: port_6,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "OCT 2024 . Creative",
+    title: "The Kerala Table",
+    slug: "the-kerala-table",
+  },
+  {
+    id: 5,
+    img_1: port_9,
+    img_2: port_10,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "SEP 2024 . Creative",
+    title: "MBACET",
+    slug: "mba-cet",
+  },
+  {
+    id: 4,
+    img_1: port_7,
+    img_2: port_8,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "SEP 2024 . Creative",
+    title: "Only Engineering",
+    slug: "only-engineering",
+  },
+  {
+    id: 2,
+    img_1: port_3,
+    img_2: port_4,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "NOV 2024 . Creative",
+    title: "NEET Gyan",
+    slug: "neet-gyan",
   },
 ];
 
@@ -95,6 +113,10 @@ type IProps = {
 };
 export default function ProjectFour({ style_2 = false }: IProps) {
   return (
+
+    <>
+     <HeaderTwo />
+   
     <div
       className={`tp-project-3-area ${
         style_2 ? "pt-60 pw-project-style" : "pt-130 black-bg"
@@ -108,18 +130,6 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                 <h4 className="tp-section-title-200 tp_reveal_anim">
                   Latest <span>Projects</span>
                 </h4>
-                {/* <div className="tp-project-3-btn-box">
-                  <Link
-                    className="tp-btn-zikzak p-relative"
-                    href={`/${slug}`}
-                  >
-                    <span className="zikzak-content">
-                      See <br /> All Project
-                      <RightArrow clr="#19191A" />
-                    </span>
-                    <ProjectShape />
-                  </Link>
-                </div> */}
               </div>
             </div>
           </div>
@@ -139,14 +149,6 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                           width: "-webkit-fill-available",
                         }}
                       />
-                      {/* <video
-                        src="/assets/img/portfolio-img/tkt reel.mp4"
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        style={{ width: "100%", height: "auto", borderRadius:"20px", objectFit:"cover"}}
-                      ></video> */}
                     </div>
                   </div>
                   <div className="col-xl-4 col-lg-4 col-md-12 order-1 order-lg-0">
@@ -182,5 +184,8 @@ export default function ProjectFour({ style_2 = false }: IProps) {
         </div>
       </div>
     </div>
+
+      <FooterOne />
+    </>
   );
 }
