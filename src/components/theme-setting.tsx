@@ -7,7 +7,6 @@ const  ThemeSetting = () => {
   const { setTheme, theme } = useTheme();
   const [settingOpen, setSettingOpen] = React.useState(false);
 
-  console.log('theme', theme);
 
   function handleOpenSetting() {
     setSettingOpen(!settingOpen);

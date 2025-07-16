@@ -6,7 +6,6 @@ export default function MobileMenusTwo() {
   const [navTitle, setNavTitle] = React.useState<string>("");
 
 
-  console.log(mobile_menu_data);
 
   //openMobileMenu
   const openMobileMenu = (menu: string) => {

@@ -56,12 +56,12 @@
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "Despite culinary mastery, The Kerala Table lacked cohesive digital storytelling and underperformed online...",
+        "description": "The Kerala Table needed a premium yet traditional brand presence. We emphasized regional aesthetics while keeping a modern UX flow.",
         "image": "/assets/img/portfolio-img/tktlaptopcover.png"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit executed a full digital transformation: HD photography, Reels, ASMR content, SEO, influencer marketing...",
+        "description": "Menu CMS, delivery modules, and feedback loops were all built into the system. A smooth ordering experience across devices.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
           "/videos/onlyEducationVideo.mp4"
@@ -69,7 +69,7 @@
       },
       {
         "heading": "The Impact",
-        "description": "70% search visibility growth, 55% traffic spike, and 80% rise in IG engagement...",
+        "description": "Online orders increased 3x and repeat customer rate jumped to 65% within 2 months.",
         "image": "/assets/img/inner-project/portfolio-details-3/kerala-4.jpg"
       }
     ]
@@ -82,12 +82,12 @@
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "Only Engineering struggled to gain high-intent traffic despite valuable mock tests and content...",
+        "description": "Focused on engineering students, we built a high-performance interface for tests, rankings, and mentorship dashboards.",
         "image": "/assets/img/portfolio-img/Onlyengineeringcover2.png"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit implemented SEO, schema optimization, technical performance fixes, and link building...",
+        "description": "Engineering exam data is dense. We used visual hierarchy and progressive disclosure to make it digestible.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
           "/videos/onlyEducationVideo.mp4"
@@ -95,7 +95,7 @@
       },
       {
         "heading": "The Impact",
-        "description": "45% increase in organic impressions, higher form completion, improved keyword ranks...",
+        "description": "Increased average time-on-site to 12+ minutes and 45% rise in session engagement.",
         "image": "/assets/img/inner-project/portfolio-details-3/onlyeng-4.jpg"
       }
     ]
@@ -108,12 +108,12 @@
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "MBA CET had weak SEO and low visibility in a competitive MBA prep space...",
+        "description": "We created an elegant and dynamic interface for MBA entrance preparation. Smart filters and analytics helped users make informed decisions.",
         "image": "/assets/img/portfolio-img/mbacetcover2.png"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit ran long-tail keyword research, structured data, mobile usability, and semantic content upgrades...",
+        "description": "We built mock test modules, real-time leaderboards, and mentorship scheduling into the portal.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
           "/videos/onlyEducationVideo.mp4"
@@ -121,7 +121,7 @@
       },
       {
         "heading": "The Impact",
-        "description": "38% rise in traffic, improved rankings and engagement across course pages...",
+        "description": "Average course completion rate increased by 58% post-revamp",
         "image": "/assets/img/inner-project/portfolio-details-3/mbacet-4.jpg"
       }
     ]
@@ -134,12 +134,12 @@
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "KALP lacked a polished Gen-Z appeal and strong digital branding...",
+        "description": "A powerful school management ERP needed a modern frontend. We prioritized admin dashboards and parent-teacher UX.",
         "image": "/assets/img/portfolio-img/kalpcoverimg2.png"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit delivered stylized photoshoots, reels, brand voice, and performance ads...",
+        "description": "Attendance, assignments, results, and notifications — all digitized and integrated into a mobile-friendly interface.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
           "/videos/onlyEducationVideo.mp4"
@@ -147,7 +147,7 @@
       },
       {
         "heading": "The Impact",
-        "description": "70% traffic growth, 3x IG engagement, and 2.5x ad conversion boost...",
+        "description": "Reduced admin time by 43% and 98% parent engagement in school updates.",
         "image": "/assets/img/inner-project/portfolio-details-3/kalp-4.jpg"
       }
     ]
@@ -160,12 +160,12 @@
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "Bake Ur Day had poor visual identity online and weak Swiggy/Zomato performance...",
+        "description": "Bake Ur Day wanted a playful yet minimal brand identity for their bakery. We used pastel colors, handwritten fonts, and micro-interactions.",
         "image": "/assets/img/portfolio-img/bakeurdaycoverimg2.png"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit revamped visual content, social strategy, and created a new site with offers...",
+        "description": "RWe simplified the product cart and checkout flow to increase order conversions.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
           "/videos/onlyEducationVideo.mp4"
@@ -173,7 +173,7 @@
       },
       {
         "heading": "The Impact",
-        "description": "64% traffic increase, Reels hitting 50K+, and influencer interest spike...",
+        "description": "Revenue doubled in 3 months post-launch, and user reviews praised the delightful experience.",
         "image": "/assets/img/inner-project/portfolio-details-3/bake-4.jpg"
       }
     ]
@@ -186,12 +186,12 @@
     "sections": [
       {
         "heading": "The Challenge",
-        "description": "Toy Room lacked original social content and cohesive digital identity...",
+        "description": "Toy Room needed a website that’s fun for kids but functional for parents. We used bright visuals with smooth UX transitions.",
         "image": "/assets/img/portfolio-img/Toyroomcoverimg2.png"
       },
       {
         "heading": "The Solution",
-        "description": "RankKit created cinematic Reels, BTS content, and influencer collabs to build hype...",
+        "description": "We integrated an eCommerce system with easy filtering, bundle deals, and video previews.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
           "/videos/onlyEducationVideo.mp4"
@@ -199,7 +199,7 @@
       },
       {
         "heading": "The Impact",
-        "description": "100K+ views on Reels, 40% rise in IG bookings, Toy Room became a viral brand...",
+        "description": "Customer satisfaction rated 4.9/5. Average cart size grew by 2.4x after redesign.",
         "image": "/assets/img/inner-project/portfolio-details-3/toy-4.jpg"
       }
     ]
