@@ -41,6 +41,8 @@ import {
   fadeAnimation,
 } from "@/utils/title-animation";
 import HeaderTwo from "@/layouts/headers/header-two";
+import AboutThree from "@/components/about/about-three";
+import BrandThree from "@/components/brand/brand-three";
 
 const HomeMain = () => {
   useScrollSmooth();
@@ -102,16 +104,18 @@ const HomeMain = () => {
             {/* hero area start */}
             <HeroBannerOne />
             {/* hero area end */}
+            <AboutThree />
 
             {/* video area */}
-            <div className="d-none d-md-block">
+            {/* <div className="d-none d-md-block">
               <VideOne />
-            </div>
+            </div> */}
 
             {/* video area */}
 
             {/* brand area */}
-            <BrandOne />
+            {/* <BrandOne /> */}
+            <BrandThree />
             {/* brand area */}
 
             {/* service area */}

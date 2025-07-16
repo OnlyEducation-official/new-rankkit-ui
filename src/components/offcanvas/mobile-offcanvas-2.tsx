@@ -71,11 +71,11 @@ export default function MobileOffcanvasTwo({
           <div className="tp-offcanvas-2-right-inner d-flex flex-column justify-content-between h-100">
             <div className="tpoffcanvas__right-info">
               <div className="tpoffcanvas__tel">
-                <a href="tel:61404093954">+91 1234567890</a>
+                <a href="tel:61404093954">+91 9090434376</a>
               </div>
               <div className="tpoffcanvas__mail">
-                <a href="mailto:hellocontact@diego.com">
-                  hello contact@rankkit.in
+                <a href="mailto:info@rankkit.in">
+                  hello info@rankkit.in
                 </a>
               </div>
               <div className="tpoffcanvas__text">

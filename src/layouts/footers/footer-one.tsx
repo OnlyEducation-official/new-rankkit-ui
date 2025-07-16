@@ -57,7 +57,7 @@ export default function FooterOne() {
                         <div className="tp-footer-widget-info">
                           <div className="tp-footer-widget-info-mail tp_fade_bottom">
                             <a href="mailto:contact@rankkit.in">
-                              contact@rankkit.in
+                              info@rankkit.in
                             </a>
                           </div>
                           <div className="tp-footer-widget-info-location tp_fade_bottom">
@@ -81,11 +81,11 @@ export default function FooterOne() {
                           Stalk us
                         </h4>
                         <ul className="tp-footer-widget-social">
-                          <li className="tp_fade_bottom">
-                            <a href="">Facebook</a>
+                          <li className="tp_fade_bottom" style={{marginRight:"5px"}}>
+                            <a href="https://www.facebook.com/share/16bcwx6NY3/">Facebook</a>
                           </li>
                           <li className="tp_fade_bottom">
-                            <a href="#">Instagram</a>
+                            <a href="https://www.instagram.com/rankkitofficial/">Instagram</a>
                           </li>
                           {/* <li className="tp_fade_bottom">
                             <a href="#">Behance</a>

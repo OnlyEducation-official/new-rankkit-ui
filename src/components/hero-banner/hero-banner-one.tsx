@@ -62,7 +62,7 @@ const HeroBannerOne = () => {
             </div>
             <div className="tp-hero-content tp_fade_bottom"></div>
           </div>
-          <TrustedByBusinessesCard />
+          {/* <TrustedByBusinessesCard /> */}
         </div>
         <div className="row">
           <div className="col-xl-12"></div>

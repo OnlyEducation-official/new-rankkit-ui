@@ -34,7 +34,7 @@ export default function ContactTwo() {
                     className="text-black text-decoration-underline"
                     href="mailto:project@rankkit.in"
                   >
-                    project@rankkit.in
+                    info@rankkit.in
                   </a>
                   . You can also fill this form & we'll get back in 2 business
                   days.

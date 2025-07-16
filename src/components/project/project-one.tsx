@@ -134,22 +134,38 @@ const ProjectOne = ({style_2=false}:IProps) => {
             </div>
           </div>
           {!style_2 && (
-            <div className="container-fluid p-0">
-              <div className="row g-0">
-                <div className="col-xl-12">
-                  <div className="tp-project-full-img-wrap p-relative fix">
-                    <div
-                      className="tp-project-full-img"
-                      data-speed="auto"
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/inner-service/hero/hero-1-2.jpg)",
-                      }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="container-fluid p-0">
+  <div className="row g-0">
+    <div className="col-xl-12">
+      <div className="tp-project-full-img-wrap p-relative fix" style={{ position: "relative", overflow: "hidden" }}>
+        {/* Background video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            zIndex: -1,
+          }}
+        >
+          <source src="https://only-education-strapi-media.s3.ap-south-1.amazonaws.com/rankkit_02909bc981.mp4" type="video/mp4" />
+        </video>
+
+        {/* Overlay content */}
+        <div className="tp-project-full-img" data-speed="auto" style={{ position: "relative", zIndex: 1 }}>
+          {/* You can put text or other content here */}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
           )}
         </div>
       </div>

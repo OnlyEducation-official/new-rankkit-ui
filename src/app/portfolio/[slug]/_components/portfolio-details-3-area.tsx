@@ -9,7 +9,7 @@ import useScrollSmooth from '@/hooks/use-scroll-smooth';
 import { useGSAP } from '@gsap/react';
 import { charAnimation, titleAnimation } from '@/utils/title-animation';
 import { projectThreeAnimation } from '@/utils/project-anim';
-import img from '../../../../../public/assets/img/portfolio-img/phoneonlyedu2.png';
+import img from '../../../../../public/assets/img/portfolio-img/phoneonlyedu2.jpeg';
 import HeaderTwo from '@/layouts/headers/header-two';
 import FooterOne from '@/layouts/footers/footer-one';
 
