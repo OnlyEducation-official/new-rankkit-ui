@@ -3,39 +3,44 @@
     "title": "Only Education",
     "slug": "only-education",
     "website": "https://onlyeducation.com",
-    "banner": "/assets/img/portfolio-img/onlyeducation.png",
+    "banner": "/assets/img/portfolio-img/Onlyedu-cover2.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "Only Education was facing the complex task of asserting credibility and visibility in an oversaturated EdTech environment. Despite a growing user base, the brand lacked a centralised strategy to attract and retain students across disciplines. Their website did not reflect their pedagogical strengths, and the marketing funnel was fragmented, impacting both traffic and conversions.",
         "image": "/assets/img/portfolio-img/Onlyedu-cover2.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "RankKit delivered a comprehensive brand overhaul by producing high-quality ad films, educational content, and professional branding videos. The team launched a robust SEO strategy, segmented social media campaigns, LinkedIn positioning, and automated marketing workflows through email and WhatsApp. Technical enhancements to the site structure, content architecture, and GMB optimisation were also undertaken to boost discoverability.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
+          "/assets/img/portfolio-img/onlyeducationphoneimg.mp4",
           "/videos/onlyEducationVideo.mp4"
         ]
       },
       {
         "heading": "The Impact",
-        "description": "Post-intervention, Only Education saw a 65% uplift in organic keyword visibility and a 50% rise in qualified web traffic. Social media engagement rates improved by 90%, and advertising efficiency increased through a 25% reduction in cost-per-acquisition. The result was a unified digital presence that positioned Only Education as a trustworthy and technologically advanced academic counselling platform in India."      }
+        "tagline": "Proof in Performance",
+        "description": "Post-intervention, Only Education saw a 65% uplift in organic keyword visibility and a 50% rise in qualified web traffic. Social media engagement rates improved by 90%, and advertising efficiency increased through a 25% reduction in cost-per-acquisition. The result was a unified digital presence that positioned Only Education as a trustworthy and technologically advanced academic counselling platform in India."}
     ]
   },
   {
     "title": "NEET Gyan",
     "slug": "neet-gyan",
     "website": "https://neetgyan.in",
-    "banner": "/assets/img/inner-project/portfolio-details-3/neetgyan-banner.jpg",
+    "banner": "/assets/img/portfolio-img/neetgyaancover2.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "NEETGyan, despite having substantial educational content, struggled to compete in the crowded NEET preparation market. The site lacked targeted SEO refinement, which hindered its ability to rank for high-volume exam queries. This led to missed opportunities in attracting organic student traffic and building authority.",
         "image": "/assets/img/portfolio-img/neetgyaancover2.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "RankKit implemented a precision-based SEO strategy tailored to NEET-specific searches. This included granular keyword research across Physics, Chemistry, and Biology topics, along with technical improvements such as mobile responsiveness, structured data integration, and Core Web Vitals optimisation. A focused backlink acquisition plan was also put into place through academic domains and student forums.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
@@ -44,6 +49,7 @@
       },
       {
         "heading": "The Impact",
+        "tagline": "Proof in Performance",
         "description": "As a result, NEETGyan saw a 50% surge in organic traffic to its course and resource pages. The site achieved top-three rankings for several competitive keywords, driving substantial increases in mock test registrations and course sign-ups. This solidified NEETGyan’s position as a reliable digital destination for NEET aspirants."
             }
     ]
@@ -52,15 +58,17 @@
     "title": "The Kerala Table",
     "slug": "the-kerala-table",
     "website": "https://thekeralatable.com",
-    "banner": "/assets/img/inner-project/portfolio-details-3/keralatable-banner.jpg",
+    "banner": "/assets/img/portfolio-img/tktlaptopcover.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "The Kerala Table needed a premium yet traditional brand presence. We emphasized regional aesthetics while keeping a modern UX flow.",
         "image": "/assets/img/portfolio-img/tktlaptopcover.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "Menu CMS, delivery modules, and feedback loops were all built into the system. A smooth ordering experience across devices.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
@@ -69,6 +77,7 @@
       },
       {
         "heading": "The Impact",
+        "tagline": "Proof in Performance",
         "description": "Online orders increased 3x and repeat customer rate jumped to 65% within 2 months.",
         "image": "/assets/img/inner-project/portfolio-details-3/kerala-4.jpg"
       }
@@ -78,15 +87,17 @@
     "title": "Only Engineering",
     "slug": "only-engineering",
     "website": "https://onlyengineering.in",
-    "banner": "/assets/img/inner-project/portfolio-details-3/onlyengineering-banner.jpg",
+    "banner": "/assets/img/portfolio-img/Onlyengineeringcover2.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "Focused on engineering students, we built a high-performance interface for tests, rankings, and mentorship dashboards.",
         "image": "/assets/img/portfolio-img/Onlyengineeringcover2.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "Engineering exam data is dense. We used visual hierarchy and progressive disclosure to make it digestible.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
@@ -95,6 +106,7 @@
       },
       {
         "heading": "The Impact",
+        "tagline": "Proof in Performance",
         "description": "Increased average time-on-site to 12+ minutes and 45% rise in session engagement.",
         "image": "/assets/img/inner-project/portfolio-details-3/onlyeng-4.jpg"
       }
@@ -104,15 +116,17 @@
     "title": "MBA CET",
     "slug": "mba-cet",
     "website": "https://mbacet.in",
-    "banner": "/assets/img/inner-project/portfolio-details-3/mbacet-banner.jpg",
+    "banner": "/assets/img/portfolio-img/mbacetcover.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "We created an elegant and dynamic interface for MBA entrance preparation. Smart filters and analytics helped users make informed decisions.",
         "image": "/assets/img/portfolio-img/mbacetcover2.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "We built mock test modules, real-time leaderboards, and mentorship scheduling into the portal.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
@@ -121,6 +135,7 @@
       },
       {
         "heading": "The Impact",
+        "tagline": "Proof in Performance",
         "description": "Average course completion rate increased by 58% post-revamp",
         "image": "/assets/img/inner-project/portfolio-details-3/mbacet-4.jpg"
       }
@@ -130,15 +145,17 @@
     "title": "KALP",
     "slug": "kalp",
     "website": "https://kalpedu.in",
-    "banner": "/assets/img/inner-project/portfolio-details-3/kalp-banner.jpg",
+    "banner": "/assets/img/portfolio-img/kalpcoverimg2.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "A powerful school management ERP needed a modern frontend. We prioritized admin dashboards and parent-teacher UX.",
         "image": "/assets/img/portfolio-img/kalpcoverimg2.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "Attendance, assignments, results, and notifications — all digitized and integrated into a mobile-friendly interface.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
@@ -147,6 +164,7 @@
       },
       {
         "heading": "The Impact",
+        "tagline": "Proof in Performance",
         "description": "Reduced admin time by 43% and 98% parent engagement in school updates.",
         "image": "/assets/img/inner-project/portfolio-details-3/kalp-4.jpg"
       }
@@ -156,15 +174,17 @@
     "title": "Bake Ur Day",
     "slug": "bake-ur-day",
     "website": "https://bakeurday.in",
-    "banner": "/assets/img/inner-project/portfolio-details-3/bakeurday-banner.jpg",
+    "banner": "/assets/img/portfolio-img/bakeurdaycoverimg2.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "Bake Ur Day wanted a playful yet minimal brand identity for their bakery. We used pastel colors, handwritten fonts, and micro-interactions.",
         "image": "/assets/img/portfolio-img/bakeurdaycoverimg2.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "RWe simplified the product cart and checkout flow to increase order conversions.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
@@ -173,6 +193,7 @@
       },
       {
         "heading": "The Impact",
+        "tagline": "Proof in Performance",
         "description": "Revenue doubled in 3 months post-launch, and user reviews praised the delightful experience.",
         "image": "/assets/img/inner-project/portfolio-details-3/bake-4.jpg"
       }
@@ -182,15 +203,17 @@
     "title": "Toy Room",
     "slug": "toy-room",
     "website": "https://toyroom.in",
-    "banner": "/assets/img/inner-project/portfolio-details-3/toyroom-banner.jpg",
+    "banner": "/assets/img/portfolio-img/Toyroomcoverimg2.png",
     "sections": [
       {
         "heading": "The Challenge",
+        "tagline": "An introduction",
         "description": "Toy Room needed a website that’s fun for kids but functional for parents. We used bright visuals with smooth UX transitions.",
         "image": "/assets/img/portfolio-img/Toyroomcoverimg2.png"
       },
       {
         "heading": "The Solution",
+        "tagline": "Strategic Revival",
         "description": "We integrated an eCommerce system with easy filtering, bundle deals, and video previews.",
         "images": [
           "/videos/onlyEducationVideo.mp4",
@@ -199,6 +222,7 @@
       },
       {
         "heading": "The Impact",
+        "tagline": "Proof in Performance",
         "description": "Customer satisfaction rated 4.9/5. Average cart size grew by 2.4x after redesign.",
         "image": "/assets/img/inner-project/portfolio-details-3/toy-4.jpg"
       }

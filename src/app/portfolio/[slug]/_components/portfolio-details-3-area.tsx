@@ -9,6 +9,7 @@ import useScrollSmooth from '@/hooks/use-scroll-smooth';
 import { useGSAP } from '@gsap/react';
 import { charAnimation, titleAnimation } from '@/utils/title-animation';
 import { projectThreeAnimation } from '@/utils/project-anim';
+import img from '../../../../../public/assets/img/portfolio-img/phoneonlyedu2.png';
 import HeaderTwo from '@/layouts/headers/header-two';
 import FooterOne from '@/layouts/footers/footer-one';
 
@@ -22,6 +23,7 @@ type Props = {
       description: string;
       image?: string;
       images?: string[];
+      tagline?: string;
     }[];
   };
 };
@@ -85,35 +87,55 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
       </div>
 
       {/* Banner */}
-      <div className="tp-project-details-3-full-width-thumb mb-120">
-        <Image data-speed=".8" src={project.banner} alt="port-img" width={1920} height={1080} />
-      </div>
+      {/* <div className="tp-project-details-3-full-width-thumb mb-120">
+        <Image data-speed=".8" src={project.banner} alt="port-img" width={1560} height={800} 
+                        style={{ width: "100%", height: "100%", aspectRatio: '1.95 / 1' }} />
+      </div> */}
+      <div className="tp-project-details-3-thumb mb-120" >
+              <div className="container container-1560">
+                <div className="row">
+                  <div className="col-xl-12">
+                    <div className="tp-project-details-3-thumb-box">
+                      <Image
+                        data-speed=".8"
+                        src={project.banner}
+                        alt="portfolio-section-img"
+                        width={1560}
+                        height={800}
+                        style={{  aspectRatio: '1.95 / 1' }}
+                        // objectFit='fill'
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
       {/* Sections */}
       {project.sections.map((section, index) => (
         <div key={index}>
-          <div className="showcase-details-2-area pb-120">
+          <div className="showcase-details-2-area pb-180">
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-2-section-box">
-                    <h4 className="showcase-details-2-section-title tp-char-animation">
+                    <h4 className={`showcase-details-2-section-title tp-char-animation ${(index + 2) % 2 === 0 ? 'text-lg-start' : 'text-lg-end'}`}>
                       {section.heading}
                     </h4>
                   </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-xl-3">
-                  <div className="showcase-details-2-section-left">
+                <div className={`col-xl-3  ${(index + 2) % 2 === 0 ? 'order-xl-0' : 'order-xl-1'}`}>
+                  <div className={`showcase-details-2-section-left ${(index + 2) % 2 === 0 ? 'text-lg-start' : 'text-lg-end'}`}>
                     <span className="ab-inner-subtitle mb-25">
-                      <Leaf /> An introduction
+                      <Leaf /> {section.tagline}
                     </span>
                   </div>
                 </div>
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
-                    <p>{section.description}</p>
+                    <p className={` ${ (index + 2) % 2 === 0 ? 'me-0' : 'ms-0' }`}>{section.description}</p>
                   </div>
                 </div>
               </div>
@@ -121,7 +143,7 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
           </div>
 
           {/* Single Image */}
-          {section.image && (
+          {/* {section.image && (
             <div className="tp-project-details-3-thumb mb-120" id={index === 0 ? "xyz" : ""}>
               <div className="container container-1560">
                 <div className="row">
@@ -141,24 +163,36 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
                 </div>
               </div>
             </div>
-          )}
+          )} */}
 
           {/* Two Images */}
           {section.images && (
-            <div className="tp-project-details-3-thumb mb-90">
+            <div className="mb-90">
               <div className="container">
                 <div className="row">
                   {section.images.map((videoLink, imgIdx) => (
-                    <div className="col-xl-6" key={imgIdx}>
-                      <div className="tp-project-details-3-thumb-box mb-30">
-                        <video
+                    <div className={`col-lg-6 ${imgIdx > 0 && 'd-none d-lg-block'}`} key={imgIdx}>
+                      <div className="mb-30 text-center">
+                        {imgIdx === 0 ? (
+                          <Image
+                        data-speed=".8"
+                        src={img}
+                        alt="portfolio-section-img"
+                        width={500}
+                        height={680}
+                        style={{ aspectRatio: '0.74 / 1' }}
+                        // objectFit='fill'
+                      />
+                        ) : (<video
                           src={videoLink}
                           autoPlay
                           muted
                           loop
                           playsInline
-                          style={{ width: "100%", height: "100%",  aspectRatio: '1.78 / 1' }}
-                        ></video>
+                          width={500}
+                          height={680}
+                          style={{ aspectRatio: '0.74 / 1' }}
+                        ></video>)}
                       </div>
                     </div>
                   ))}
