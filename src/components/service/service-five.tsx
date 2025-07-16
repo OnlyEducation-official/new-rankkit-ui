@@ -40,7 +40,7 @@ export function ServiceItems() {
             </div>
             <div className="tp-service-4-content">
               <h4 className="tp-service-4-title-sm tp-text-black">
-                <Link href="/service">{item.title}</Link>
+                <Link href="/services">{item.title}</Link>
               </h4>
               <p>{item.desc}</p>
             </div>

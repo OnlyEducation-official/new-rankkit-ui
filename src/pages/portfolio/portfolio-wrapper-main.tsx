@@ -15,6 +15,8 @@ import BigText from "@/components/big-text";
 import { charAnimation,titleAnimation } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import ProjectFour from "@/components/project/project-four";
+import FooterOne from "@/layouts/footers/footer-one";
+import HeaderTwo from "@/layouts/headers/header-two";
 
 const PortfolioWrapperMain = () => {
   useScrollSmooth();
@@ -37,6 +39,7 @@ const PortfolioWrapperMain = () => {
 
       <div id="smooth-wrapper">
         <div id="smooth-content">
+     <HeaderTwo />
           <main>
             {/* portfolio hero */}
             <div className="tm-hero-area tm-hero-ptb">
@@ -74,6 +77,8 @@ const PortfolioWrapperMain = () => {
           {/* footer area */}
           {/* <FooterTwo topCls="" /> */}
           {/* footer area */}
+          
+      <FooterOne />
         </div>
       </div>
 

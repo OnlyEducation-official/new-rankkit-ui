@@ -14,6 +14,8 @@ import FooterTwo from "@/components/footer/Index";
 import BigText from "@/components/about-us/big-text";
 import { DataContentType } from "../page";
 import { servicePanel } from "@/utils/panel-animation";
+import FooterOne from "@/layouts/footers/footer-one";
+import HeaderTwo from "@/layouts/headers/header-two";
 
 const SingleServicePage = ({data}: {data: DataContentType}) => {
     // useScrollSmooth();
@@ -27,6 +29,8 @@ const SingleServicePage = ({data}: {data: DataContentType}) => {
     return (
         <div id="smooth-wrapper">
             <div id="smooth-content">
+                               <HeaderTwo />
+                
                 <main>
                     {/* service details area */}
                     <ServiceDetailsArea data={data} />
@@ -36,6 +40,8 @@ const SingleServicePage = ({data}: {data: DataContentType}) => {
                     <BigText />
                     {/* big text */}
                 </main>
+                              <FooterOne />
+
             </div>
         </div>
     );

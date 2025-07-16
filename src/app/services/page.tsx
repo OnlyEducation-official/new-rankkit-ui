@@ -16,6 +16,8 @@ import useScrollSmooth from "@/hooks/use-scroll-smooth";
 import { useGSAP } from "@gsap/react";
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
+import FooterOne from "@/layouts/footers/footer-one";
+import HeaderTwo from "@/layouts/headers/header-two";
 
 const ServiceMain = () => {
   useScrollSmooth();
@@ -32,6 +34,8 @@ const ServiceMain = () => {
       <>
       <div id="smooth-wrapper">
         <div id="smooth-content">
+               <HeaderTwo />
+
           <main>
             {/* service hero */}
             <ServiceHero />
@@ -75,7 +79,9 @@ const ServiceMain = () => {
             {/* big text */}
           </main>
 
+              <FooterOne />
         </div>
+
       </div>
       </>
   );
