@@ -129,6 +129,8 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
                         alt="portfolio-section-img"
                         width={1920}
                         height={1080}
+                        style={{ width: "100%", height: "100%", aspectRatio: '1.95 / 1' }}
+                        // objectFit='fill'
                       />
                     </div>
                   </div>
@@ -142,16 +144,17 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
             <div className="tp-project-details-3-thumb mb-90">
               <div className="container">
                 <div className="row">
-                  {section.images.map((img, imgIdx) => (
+                  {section.images.map((videoLink, imgIdx) => (
                     <div className="col-xl-6" key={imgIdx}>
                       <div className="tp-project-details-3-thumb-box mb-30">
-                        <Image
-                          className="w-100"
-                          src={img}
-                          alt={`section-img-${imgIdx}`}
-                          width={960}
-                          height={540}
-                        />
+                        <video
+                          src={videoLink}
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                          style={{ width: "100%", height: "100%",  aspectRatio: '1.78 / 1' }}
+                        ></video>
                       </div>
                     </div>
                   ))}
