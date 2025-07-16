@@ -1,11 +1,16 @@
-'use client';
+"use client";
 import { gsap } from "gsap";
 import React, { useEffect } from "react";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 import Link from "next/link";
-import useScrollSmooth from '@/hooks/use-scroll-smooth';
-import { ScrollSmoother, ScrollTrigger, SplitText, cursorAnimation } from '@/plugins';
+import useScrollSmooth from "@/hooks/use-scroll-smooth";
+import {
+  ScrollSmoother,
+  ScrollTrigger,
+  SplitText,
+  cursorAnimation,
+} from "@/plugins";
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
@@ -22,15 +27,19 @@ import TestimonialOne from "@/components/testimonial/testimonial-one";
 import FooterOne from "@/layouts/footers/footer-one";
 
 // images
-import shape_1 from '@/assets/img/home-01/footer/footer-circle-shape-1.png';
-import shape_2 from '@/assets/img/home-01/footer/footer-circle-shape-2.png';
+import shape_1 from "@/assets/img/home-01/footer/footer-circle-shape-1.png";
+import shape_2 from "@/assets/img/home-01/footer/footer-circle-shape-2.png";
 
 // animation
 import { videoAnimOne } from "@/utils/video-anim";
 import { teamMarqueAnim } from "@/utils/scroll-marque";
 import { hoverBtn } from "@/utils/hover-btn";
 import { footerTwoAnimation } from "@/utils/footer-anim";
-import { bounceAnimation, charAnimation, fadeAnimation } from "@/utils/title-animation";
+import {
+  bounceAnimation,
+  charAnimation,
+  fadeAnimation,
+} from "@/utils/title-animation";
 import HeaderTwo from "@/layouts/headers/header-two";
 
 const HomeMain = () => {
@@ -95,7 +104,10 @@ const HomeMain = () => {
             {/* hero area end */}
 
             {/* video area */}
-            <VideOne />
+            <div className="d-none d-md-block">
+              <VideOne />
+            </div>
+
             {/* video area */}
 
             {/* brand area */}

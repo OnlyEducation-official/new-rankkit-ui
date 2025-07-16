@@ -96,20 +96,20 @@ const service_data = [
     ],
     url: "digital-marketing",
   },
-       {
-    id: 7,
-    img: ser_img_4,
-    subtitle: "Creative Studio",
-    title: "WordPress Development",
-    text: "We develop dynamic WordPress websites with intuitive interfaces, optimized speed, and full scalability, tailored to your content needs and business goals.",
-    lists: [
-      "Custom WordPress Themes",
-      "CMS Optimization",
-      "WooCommerce Development",
-      "Plugin Integration & Customization",
-    ],
-    url: "wordpress-development",
-  },
+  //      {
+  //   id: 7,
+  //   img: ser_img_4,
+  //   subtitle: "Creative Studio",
+  //   title: "WordPress Development",
+  //   text: "We develop dynamic WordPress websites with intuitive interfaces, optimized speed, and full scalability, tailored to your content needs and business goals.",
+  //   lists: [
+  //     "Custom WordPress Themes",
+  //     "CMS Optimization",
+  //     "WooCommerce Development",
+  //     "Plugin Integration & Customization",
+  //   ],
+  //   url: "wordpress-development",
+  // },
 ];
 
 export default function Service() {
