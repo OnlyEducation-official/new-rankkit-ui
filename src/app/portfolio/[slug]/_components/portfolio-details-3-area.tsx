@@ -129,6 +129,8 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
                         alt="portfolio-section-img"
                         width={1920}
                         height={1080}
+                        style={{ width: "100%", height: "100%", aspectRatio: '1.95 / 1' }}
+                        // objectFit='fill'
                       />
                     </div>
                   </div>
