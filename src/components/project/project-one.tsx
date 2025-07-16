@@ -5,12 +5,12 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 // project images
-import p_1 from "@/assets/img/home-01/project/project-1-1.jpg";
-import p_2 from "@/assets/img/home-01/project/project-1-2.jpg";
-import p_3 from "@/assets/img/home-01/project/project-1-3.jpg";
-import p_4 from "@/assets/img/home-01/project/project-1-4.jpg";
-import p_5 from "@/assets/img/home-01/project/project-1-5.jpg";
-import p_6 from "@/assets/img/home-01/project/project-1-6.jpg";
+import p_1 from "../../../public/assets/img/portfolio-img/onlyedu h.png";
+import p_2 from "../../../public/assets/img/portfolio-img/bud.png";
+import p_3 from "../../../public/assets/img/portfolio-img/mbacet h.png";
+import p_4 from "../../../public/assets/img/portfolio-img/kalp h.png";
+import p_5 from "../../../public/assets/img/portfolio-img/tkt h.png";
+import p_6 from "../../../public/assets/img/portfolio-img/toyroom h.png";
 
 // type
 type IProject = {
@@ -18,6 +18,7 @@ type IProject = {
   cls: string;
   cls_2: string;
   img: StaticImageData;
+  link:String;
 };
 
 const project_data: IProject[] = [
@@ -26,36 +27,42 @@ const project_data: IProject[] = [
     cls: "tp-project-mr",
     cls_2: "height-1",
     img: p_1,
+    link:"/portfolio/only-education"
   },
   {
     id: 2,
     cls: "text-end",
     cls_2: "height-2 d-inline-flex justify-content-end",
     img: p_2,
+    link:"/portfolio/bake-ur-day"
   },
   {
     id: 3,
     cls: "tp-project-mr",
     cls_2: "height-3",
     img: p_3,
+    link:"/portfolio/mba-cet"
   },
   {
     id: 4,
     cls: "",
     cls_2: "height-4",
     img: p_4,
+    link:"/portfolio/kalp"
   },
   {
     id: 5,
     cls: "tp-project-ml",
     cls_2: "height-5",
     img: p_5,
+    link:"/portfolio/the-kerala-table"
   },
   {
     id: 6,
     cls: "",
     cls_2: "height-6",
     img: p_6,
+    link:"/portfolio/toy-room",
   },
 ];
 
@@ -66,8 +73,8 @@ function ProjectItem({ item }: { item: IProject }) {
         className={`tp-project-img ${item.cls_2} fix not-hide-cursor`}
         data-cursor="View<br>Demo"
       >
-        <Link className="cursor-hide" href="/portfolio-details-3">
-          <Image data-speed=".8" src={item.img} alt="project-img" style={{ height: "auto" }} />
+        <Link className="cursor-hide" href={`${item.link}`}>
+          <Image data-speed=".8" src={item.img} alt="project-img" style={{ height: "auto", width:"500px" }} />
         </Link>
       </div>
     </div>
@@ -112,7 +119,7 @@ const ProjectOne = ({style_2=false}:IProps) => {
                       <div className="tp-btn-bounce">
                         <Link
                           className="tp-btn-border"
-                          href="/portfolio-grid-col-3"
+                          href="/portfolio"
                         >
                           <span className="tp-btn-border-wrap">
                             <span className="text-1">View all projects</span>
