@@ -43,9 +43,6 @@ const ServiceOne = () => {
         <div className="row">
           <div className="col-xl-6 col-lg-6">
             <div className="tp-service-title-box p-relative">
-              {/* <span className="tp-section-subtitle subtitle-position tp_fade_bottom">
-                we Think a lot
-              </span> */}
               <h4 className="tp-section-title tp_fade_bottom">
                 Thoughtful
                 <br />
@@ -53,7 +50,7 @@ const ServiceOne = () => {
               </h4>
             </div>
             <div className="tp-service-left-btn tp-btn-bounce">
-              <Link className="tp-btn-border" href="/service">
+              <Link className="tp-btn-border" href="/services">
                 <span className="tp-btn-border-wrap">
                   <span className="text-1">See All Services</span>
                   <span className="text-2">See All Services</span>
@@ -73,7 +70,7 @@ const ServiceOne = () => {
                   </div>
                   <div className="tp-service-content">
                     <h4 className="tp-service-title-sm order-0">
-                      <Link href="/service-details">{s.title}</Link>
+                      <Link href="/services">{s.title}</Link>
                     </h4>
                     <p className="order-1">{s.desc}</p>
                   </div>

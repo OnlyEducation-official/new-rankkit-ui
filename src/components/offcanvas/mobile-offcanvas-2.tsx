@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo_1 from "@/assets/img/logo/logo.png";
-import logo_2 from "@/assets/img/logo/logo-white.png";
+import logo from "@/assets/img/logo/image.png";
 import { CloseThree, CloseTwo } from "@/components/svg";
 import Link from "next/link";
 import MobileMenusTwo from "./mobile-menus-2";
@@ -29,10 +28,7 @@ export default function MobileOffcanvasTwo({
           <div className="tp-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
             <div className="tpoffcanvas__logo">
               <Link className="logo-1" href="/">
-                <Image src={logo_1} alt="logo" />
-              </Link>
-              <Link className="logo-2" href="/">
-                <Image src={logo_2} alt="logo" />
+                <Image src={logo} alt="logo" />
               </Link>
             </div>
             <div className="tp-offcanvas-2-close d-md-none text-end">
