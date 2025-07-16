@@ -3,7 +3,9 @@
 /*----------------------------------------*/
 /*  7.6 contact css start
 /*----------------------------------------*/
-
+.cn-contactform-area{
+    height: 100vh;
+}
 .tp-contact-6{
     &-title-box{
         @media #{$xl}{
