@@ -160,7 +160,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                     <div className="tp-project-3-content text-center">
                       <span className="tp-project-3-meta">{item.meta} </span>
                       <h4 className="tp-project-3-title-sm">
-                        <Link href="/portfolio-details-1">{item.title}</Link>
+                        {item.title}
                       </h4>
                       <Link
                         className="tp-btn-project-sm"
