@@ -148,7 +148,16 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                           height: "auto",
                           width: "-webkit-fill-available",
                         }}
+                    
                       />
+                      {/* <video
+                        src="/assets/img/portfolio-img/tkt reel.mp4"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        style={{ width: "100%", height: "auto", borderRadius:"20px", objectFit:"cover"}}
+                      ></video> */}
                     </div>
                   </div>
                   <div className="col-xl-4 col-lg-4 col-md-12 order-1 order-lg-0">
@@ -160,6 +169,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <Link
                         className="tp-btn-project-sm"
                         href={`/portfolio/${item.slug}`}
+
                       >
                         See Project
                       </Link>
