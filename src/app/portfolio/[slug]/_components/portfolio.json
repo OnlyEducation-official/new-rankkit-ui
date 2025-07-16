@@ -16,8 +16,14 @@
         "tagline": "Strategic Revival",
         "description": "RankKit delivered a comprehensive brand overhaul by producing high-quality ad films, educational content, and professional branding videos. The team launched a robust SEO strategy, segmented social media campaigns, LinkedIn positioning, and automated marketing workflows through email and WhatsApp. Technical enhancements to the site structure, content architecture, and GMB optimisation were also undertaken to boost discoverability.",
         "images": [
-          "/assets/img/portfolio-img/onlyeducationphoneimg.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": "/videos/onlyEducationVideo.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/phoneonlyedu2.png"
+          } 
         ]
       },
       {
@@ -35,23 +41,29 @@
       {
         "heading": "The Challenge",
         "tagline": "An introduction",
-        "description": "NEETGyan, despite having substantial educational content, struggled to compete in the crowded NEET preparation market. The site lacked targeted SEO refinement, which hindered its ability to rank for high-volume exam queries. This led to missed opportunities in attracting organic student traffic and building authority.",
+        "description": "NEETGyan, despite a strong content base, faced visibility issues in the saturated NEET prep space. Lack of SEO refinement, keyword targeting, and mobile responsiveness limited organic reach and discoverability. Without strategic optimization, it struggled to convert traffic into engaged learners or establish digital authority among serious medical aspirants.",
         "image": "/assets/img/portfolio-img/neetgyaancover2.png"
       },
       {
         "heading": "The Solution",
         "tagline": "Strategic Revival",
-        "description": "RankKit implemented a precision-based SEO strategy tailored to NEET-specific searches. This included granular keyword research across Physics, Chemistry, and Biology topics, along with technical improvements such as mobile responsiveness, structured data integration, and Core Web Vitals optimisation. A focused backlink acquisition plan was also put into place through academic domains and student forums.",
+        "description": "RankKit applied a NEET-specific SEO overhaul, including deep keyword mapping across core subjects, structured data, and mobile UX optimization. We enhanced load speed, schema, and backlinking via academic platforms and student communities. These enhancements created an ecosystem aligned with search intent, content performance, and ranking improvements across competitive keyword clusters.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": ""
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/neetgyaanmock.png"
+          }
         ]
       },
       {
         "heading": "The Impact",
         "tagline": "Proof in Performance",
-        "description": "As a result, NEETGyan saw a 50% surge in organic traffic to its course and resource pages. The site achieved top-three rankings for several competitive keywords, driving substantial increases in mock test registrations and course sign-ups. This solidified NEETGyan’s position as a reliable digital destination for NEET aspirants."
-            }
+        "description": "Within weeks, NEETGyan saw a 50% surge in organic traffic and page dwell time. Rankings improved for high-volume keywords, driving growth in mock test registrations and sign-ups. With improved visibility and user flow, NEETGyan cemented its place as a dependable prep platform for NEET aspirants nationwide."
+      }
     ]
   },
   {
@@ -63,22 +75,28 @@
       {
         "heading": "The Challenge",
         "tagline": "An introduction",
-        "description": "The Kerala Table needed a premium yet traditional brand presence. We emphasized regional aesthetics while keeping a modern UX flow.",
+        "description": "The Kerala Table needed a digital identity that was rooted in tradition yet tailored for premium online experiences. Its original site lacked warmth, regional flavor, and seamless user flows for ordering — creating a gap between brand essence and user engagement, especially for digital-first food lovers.",
         "image": "/assets/img/portfolio-img/tktlaptopcover.png"
       },
       {
         "heading": "The Solution",
         "tagline": "Strategic Revival",
-        "description": "Menu CMS, delivery modules, and feedback loops were all built into the system. A smooth ordering experience across devices.",
+        "description": "We redesigned the platform to combine Kerala's cultural motifs with modern UI/UX. A custom CMS allowed dynamic menu management, while integrated delivery and feedback modules ensured a smooth user journey. Mobile optimization ensured seamless browsing, ordering, and reordering, converting first-time visitors into returning food lovers.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": "/videos/tkt.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/Tktphonemockup.png"
+          }
         ]
       },
       {
         "heading": "The Impact",
         "tagline": "Proof in Performance",
-        "description": "Online orders increased 3x and repeat customer rate jumped to 65% within 2 months.",
+        "description": "Within two months, online orders grew 3x and customer retention climbed to 65%. Social and menu integration improved engagement, and the new digital identity attracted premium diners looking for regional authenticity and convenience. The Kerala Table is now both a beloved brand and a scalable digital restaurant.",
         "image": "/assets/img/inner-project/portfolio-details-3/kerala-4.jpg"
       }
     ]
@@ -92,22 +110,28 @@
       {
         "heading": "The Challenge",
         "tagline": "An introduction",
-        "description": "Focused on engineering students, we built a high-performance interface for tests, rankings, and mentorship dashboards.",
+        "description": "Only Engineering needed a structured platform to simplify complex engineering entrance prep. Its previous setup lacked visual hierarchy and interactive test dashboards, making it difficult for students to track performance or engage deeply with analytical tools and mentorship insights required for competitive exams like JEE.",
         "image": "/assets/img/portfolio-img/Onlyengineeringcover2.png"
       },
       {
         "heading": "The Solution",
         "tagline": "Strategic Revival",
-        "description": "Engineering exam data is dense. We used visual hierarchy and progressive disclosure to make it digestible.",
+        "description": "We created a modular interface with intuitive dashboards, performance visualizations, and tiered content discovery. The platform used progressive disclosure and responsive layouts to handle dense data seamlessly. A mentorship dashboard and college predictor tools added value and converted passive users into high-intent aspirants.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": "/videos/onlyEducationVideo.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/Onlyenginineeringmock.png"
+          }
         ]
       },
       {
         "heading": "The Impact",
         "tagline": "Proof in Performance",
-        "description": "Increased average time-on-site to 12+ minutes and 45% rise in session engagement.",
+        "description": "The platform achieved a 45% increase in session engagement and 12+ minutes average time-on-site. User feedback praised the clarity, structure, and speed. With real-time performance tracking and improved navigation, Only Engineering became a high-engagement destination for India’s competitive engineering test takers.",
         "image": "/assets/img/inner-project/portfolio-details-3/onlyeng-4.jpg"
       }
     ]
@@ -121,22 +145,28 @@
       {
         "heading": "The Challenge",
         "tagline": "An introduction",
-        "description": "We created an elegant and dynamic interface for MBA entrance preparation. Smart filters and analytics helped users make informed decisions.",
+        "description": "MBA CET aspirants needed a prep space that combined analytics, clarity, and smart filters. The earlier site lacked personalized journeys, real-time feedback, and mentor guidance — leading to drop-offs and limited conversion from visitors to course-takers in a high-stakes exam landscape.",
         "image": "/assets/img/portfolio-img/mbacetcover2.png"
       },
       {
         "heading": "The Solution",
         "tagline": "Strategic Revival",
-        "description": "We built mock test modules, real-time leaderboards, and mentorship scheduling into the portal.",
+        "description": "We built a flexible mock test engine, real-time leaderboards, and a dynamic mentor-booking feature. Filters allowed students to explore B-schools by ROI, city, and specialization. Backend analytics tracked user flow to optimize course recommendations and guide students through every stage of the preparation funnel.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": "/videos/onlyEducationVideo.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/mbacetmock.png"
+          }
         ]
       },
       {
         "heading": "The Impact",
         "tagline": "Proof in Performance",
-        "description": "Average course completion rate increased by 58% post-revamp",
+        "description": "Post-launch, course completion rates jumped 58% and user retention increased significantly. Personalized dashboards and structured paths improved learning outcomes, while smart filters increased lead-to-admission conversion. The revamped platform now serves as a performance-driven preparation engine for MBA CET aspirants across Maharashtra.",
         "image": "/assets/img/inner-project/portfolio-details-3/mbacet-4.jpg"
       }
     ]
@@ -150,22 +180,28 @@
       {
         "heading": "The Challenge",
         "tagline": "An introduction",
-        "description": "A powerful school management ERP needed a modern frontend. We prioritized admin dashboards and parent-teacher UX.",
+        "description": "KALP’s robust school ERP lacked a user-friendly frontend and mobile optimization. Admins faced workflow challenges, while parents struggled with fragmented communication and update tracking. The system needed simplification, modern design, and real-time responsiveness to boost overall usability across stakeholder groups.",
         "image": "/assets/img/portfolio-img/kalpcoverimg2.png"
       },
       {
         "heading": "The Solution",
         "tagline": "Strategic Revival",
-        "description": "Attendance, assignments, results, and notifications — all digitized and integrated into a mobile-friendly interface.",
+        "description": "We reimagined the ERP with mobile-first dashboards for admins, teachers, and parents. Modules like attendance, assignments, exam results, and notifications were made intuitive, with real-time alerts and a focus on clarity. Parent-teacher interaction flows were optimized to feel seamless and collaborative.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": "/videos/kalp.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/kalpphonemockup.png"
+          }
         ]
       },
       {
         "heading": "The Impact",
         "tagline": "Proof in Performance",
-        "description": "Reduced admin time by 43% and 98% parent engagement in school updates.",
+        "description": "Admin workload reduced by 43%, and parent update engagement hit 98%. The sleek new UX increased trust and daily usage, transforming KALP from a traditional ERP into a smart school operations assistant — functional, intuitive, and responsive across all devices.",
         "image": "/assets/img/inner-project/portfolio-details-3/kalp-4.jpg"
       }
     ]
@@ -179,22 +215,28 @@
       {
         "heading": "The Challenge",
         "tagline": "An introduction",
-        "description": "Bake Ur Day wanted a playful yet minimal brand identity for their bakery. We used pastel colors, handwritten fonts, and micro-interactions.",
+        "description": "Bake Ur Day aimed to reflect its cheerful bakery vibe online but struggled with inconsistent branding and poor checkout UX. The site lacked visual personality and had high cart abandonment, limiting growth despite having a loyal offline customer base.",
         "image": "/assets/img/portfolio-img/bakeurdaycoverimg2.png"
       },
       {
         "heading": "The Solution",
         "tagline": "Strategic Revival",
-        "description": "RWe simplified the product cart and checkout flow to increase order conversions.",
+        "description": "We created a pastel-themed brand language using handwritten fonts and motion-based micro-interactions. The cart and checkout process was overhauled to reduce friction. Product highlights, real-time order tracking, and simplified payment flows were built to encourage more purchases and loyalty.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": "/videos/bake_your_day.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/bakeurdayphonemock.png"
+          }
         ]
       },
       {
         "heading": "The Impact",
         "tagline": "Proof in Performance",
-        "description": "Revenue doubled in 3 months post-launch, and user reviews praised the delightful experience.",
+        "description": "Sales doubled within 3 months of relaunch, with improved checkout conversions and positive customer feedback on the shopping experience. Bake Ur Day’s brand now feels as delightful online as it does in-store, driving both emotional connection and revenue growth.",
         "image": "/assets/img/inner-project/portfolio-details-3/bake-4.jpg"
       }
     ]
@@ -208,22 +250,28 @@
       {
         "heading": "The Challenge",
         "tagline": "An introduction",
-        "description": "Toy Room needed a website that’s fun for kids but functional for parents. We used bright visuals with smooth UX transitions.",
+        "description": "Toy Room needed to appeal to kids visually while remaining practical for parents. The old platform lacked engaging content, smooth shopping flows, and effective filters — resulting in low conversions and limited repeat purchases despite a strong product lineup.",
         "image": "/assets/img/portfolio-img/Toyroomcoverimg2.png"
       },
       {
         "heading": "The Solution",
         "tagline": "Strategic Revival",
-        "description": "We integrated an eCommerce system with easy filtering, bundle deals, and video previews.",
+        "description": "We built a vibrant, playful UI with child-friendly animations and clean navigation. The eCommerce platform featured category-based filters, bundle deals, and toy video demos. Parents could easily browse, compare, and order — all in a mobile-optimized, clutter-free environment.",
         "images": [
-          "/videos/onlyEducationVideo.mp4",
-          "/videos/onlyEducationVideo.mp4"
+          {
+            "type": "video",
+            "src": "/videos/toy_room.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/Toyroom-mock.png"
+          }
         ]
       },
       {
         "heading": "The Impact",
         "tagline": "Proof in Performance",
-        "description": "Customer satisfaction rated 4.9/5. Average cart size grew by 2.4x after redesign.",
+        "description": "Post-redesign, average cart size grew 2.4x and customer satisfaction scores touched 4.9/5. The site became a destination for joyful, trust-based toy shopping — balancing fun for kids and convenience for parents with equal care.",
         "image": "/assets/img/inner-project/portfolio-details-3/toy-4.jpg"
       }
     ]
