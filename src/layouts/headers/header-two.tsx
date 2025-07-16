@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 // import { Cart } from "@/components/svg";
 import useSticky from "@/hooks/use-sticky";
-import CartOffcanvas from "@/components/offcanvas/cart-offcanvas";
 import MobileOffcanvasTwo from "@/components/offcanvas/mobile-offcanvas-2";
 import logo from "@/assets/img/logo/image.png"
 
