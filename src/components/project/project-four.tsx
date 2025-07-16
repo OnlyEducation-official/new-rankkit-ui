@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-import { ProjectShape, RightArrow } from "../svg";
 // images
 import port_1 from "../../../public/assets/img/portfolio-img/123123.svg";
 import port_2 from "../../../public/assets/img/portfolio-img/education.gif";
@@ -28,8 +27,6 @@ import port_15 from "../../../public/assets/img/portfolio-img/toyroomlogo.png";
 import port_16 from "../../../public/assets/img/portfolio-img/toy.gif";
 
 import Link from "next/link";
-import HeaderTwo from "@/layouts/headers/header-two";
-import FooterOne from "@/layouts/footers/footer-one";
 
 // portfolio data
 const project_data = [
@@ -115,7 +112,6 @@ export default function ProjectFour({ style_2 = false }: IProps) {
   return (
 
     <>
-     <HeaderTwo />
    
     <div
       className={`tp-project-3-area ${
@@ -195,7 +191,6 @@ export default function ProjectFour({ style_2 = false }: IProps) {
       </div>
     </div>
 
-      <FooterOne />
     </>
   );
 }
