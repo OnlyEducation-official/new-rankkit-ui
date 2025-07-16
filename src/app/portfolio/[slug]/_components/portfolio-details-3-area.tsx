@@ -22,7 +22,10 @@ type Props = {
       heading: string;
       description: string;
       image?: string;
-      images?: string[];
+      images?: {
+        type: 'image' | 'video';
+        src: string;
+      }[];
       tagline?: string;
     }[];
   };
@@ -170,29 +173,30 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
             <div className="mb-90">
               <div className="container">
                 <div className="row">
-                  {section.images.map((videoLink, imgIdx) => (
+                  {section.images.map((obj, imgIdx) => (
                     <div className={`col-lg-6 ${imgIdx > 0 && 'd-none d-lg-block'}`} key={imgIdx}>
                       <div className="mb-30 text-center">
-                        {imgIdx === 0 ? (
+                        {obj.type === 'image' && (
                           <Image
-                        data-speed=".8"
-                        src={img}
-                        alt="portfolio-section-img"
-                        width={500}
-                        height={680}
-                        style={{ aspectRatio: '0.74 / 1' }}
-                        // objectFit='fill'
-                      />
-                        ) : (<video
-                          src={videoLink}
-                          autoPlay
-                          muted
-                          loop
-                          playsInline
-                          width={500}
-                          height={680}
-                          style={{ aspectRatio: '0.74 / 1' }}
-                        ></video>)}
+                            data-speed=".8"
+                            src={obj.src}
+                            alt="portfolio-section-img"
+                            width={500}
+                            height={680}
+                            style={{ aspectRatio: '0.74 / 1' }}
+                          />
+                        )} 
+                        {obj.type === 'video' && (
+                          <video
+                            src={obj.src}
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            width={500}
+                            height={680}
+                            style={{ aspectRatio: '0.74 / 1' }}
+                          ></video>)}
                       </div>
                     </div>
                   ))}
