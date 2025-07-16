@@ -6,10 +6,7 @@ import shape from "@/assets/img/inner-about/about/shape-1.png";
 
 export default function ContactTwo() {
   return (
-    <div
-      style={{ height: "90vh" }}
-      className="cn-contactform-area cn-contactform-style p-relative pb-100 mt-90"
-    >
+    <div className="cn-contactform-area cn-contactform-style p-relative pb-100 mt-90">
       <div className="h-100 w-100 d-flex flex-column flex-xl-row justify-content-center align-items-center">
         {/* Left side: Social icons (only visible on XL) */}
         <div className="ab-2-hero-social-wrap d-none d-xl-block me-5">
@@ -30,6 +27,18 @@ export default function ContactTwo() {
                   Send a Message <br />
                   <span>Contact Us</span>
                 </h4>
+                <p>
+                  We're excited to work with you soon! Please drop an email with
+                  your details & requirements to{" "}
+                  <a
+                    className="text-black text-decoration-underline"
+                    href="mailto:project@rankkit.in"
+                  >
+                    project@rankkit.in
+                  </a>
+                  . You can also fill this form & we'll get back in 2 business
+                  days.
+                </p>
                 <Image
                   className="ab-about-shape-1 d-none d-xl-block"
                   src={shape}
