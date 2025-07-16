@@ -186,7 +186,7 @@ export const mobile_menu_data: {
   {
     id: 2,
     title: "Services",
-    link: "#",
+    link: "/services",
     dropdown_menus: [
       { title: "Web Development", link: "/services/web-development" },
       {
@@ -203,15 +203,15 @@ export const mobile_menu_data: {
   {
     id: 3,
     title: "Portfolio",
-    link: "#",
+    link: "/portfolio",
     dropdown_menus: [
       { title: "Only Education", link: "/portfolio/only-education" },
       { title: "Neet Gyan", link: "/portfolio/neet-gyan" },
-      { title: "The Kerala Table", link: "/portfoliothe-kerala-table" },
+      { title: "The Kerala Table", link: "/portfolio/the-kerala-table" },
       { title: "Only Engineering", link: "/portfolio/only-engineering" },
       { title: "MBA CET", link: "/portfolio/mba-cet" },
       { title: "Kalp", link: "/portfolio/kalp" },
-      { title: "Bake Your Day", link: "/portfolio/bake-your-day" },
+      { title: "Bake Your Day", link: "/portfolio/bake-ur-day" },
       { title: "Toy Room", link: "/portfolio/toy-room" },
       // { title: 'Image Slider', link: '/home-7' },
       // { title: 'wrapper Slider', link: '/home-11' },
