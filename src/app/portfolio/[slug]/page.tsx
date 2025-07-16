@@ -2,6 +2,22 @@ import React from 'react';
 import portfolioData from '../[slug]/_components/portfolio.json';
 import PortfolioDetailsThreeArea from './_components/portfolio-details-3-area';
 
+type project = {
+    title: string;
+    website: string;
+    banner: string;
+    sections: {
+      heading: string;
+      description: string;
+      image?: string;
+      images: {
+        type: 'image' | 'video';
+        src: string;
+      }[];
+      tagline?: string;
+    }[];
+  };
+
 // get project based on slug
 export async function generateStaticParams() {
   return portfolioData.map((project) => ({
@@ -16,5 +32,5 @@ export default function PortfolioDetailPage({ params }: { params: { slug: string
     return <div>Project not found</div>;
   }
 
-  return <PortfolioDetailsThreeArea project={project} />;
+  return <PortfolioDetailsThreeArea project={project as project} />;
 }

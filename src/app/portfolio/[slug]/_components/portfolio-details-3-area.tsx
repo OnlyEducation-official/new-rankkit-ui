@@ -13,8 +13,7 @@ import img from '../../../../../public/assets/img/portfolio-img/phoneonlyedu2.pn
 import HeaderTwo from '@/layouts/headers/header-two';
 import FooterOne from '@/layouts/footers/footer-one';
 
-type Props = {
-  project: {
+  type project = {
     title: string;
     website: string;
     banner: string;
@@ -22,16 +21,15 @@ type Props = {
       heading: string;
       description: string;
       image?: string;
-      images?: {
+      images: {
         type: 'image' | 'video';
         src: string;
       }[];
       tagline?: string;
     }[];
   };
-};
 
-export default function PortfolioDetailsThreeArea({ project }: Props) {
+export default function PortfolioDetailsThreeArea({ project }: { project: project }) {
   useScrollSmooth();
 
   useGSAP(() => {
