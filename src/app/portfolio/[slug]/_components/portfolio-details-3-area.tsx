@@ -9,6 +9,8 @@ import useScrollSmooth from '@/hooks/use-scroll-smooth';
 import { useGSAP } from '@gsap/react';
 import { charAnimation, titleAnimation } from '@/utils/title-animation';
 import { projectThreeAnimation } from '@/utils/project-anim';
+import HeaderTwo from '@/layouts/headers/header-two';
+import FooterOne from '@/layouts/footers/footer-one';
 
 type Props = {
   project: {
@@ -49,6 +51,8 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
 
   return (
     <>
+                   <HeaderTwo />
+
       {/* Header */}
       <div className="tp-project-details-3-top tp-project-details-3-ptb">
         <div className="container container-1560">
@@ -164,6 +168,7 @@ export default function PortfolioDetailsThreeArea({ project }: Props) {
           )}
         </div>
       ))}
+                    <FooterOne />
     </>
   );
 }
