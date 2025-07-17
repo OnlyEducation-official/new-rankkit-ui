@@ -31,6 +31,15 @@ import Link from "next/link";
 // portfolio data
 const project_data = [
   {
+    id: 3,
+    img_1: port_5,
+    img_2: port_6,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "OCT 2024 . Creative",
+    title: "The Kerala Table",
+    slug: "the-kerala-table",
+  },
+  {
     id: 7,
     img_1: port_13,
     img_2: port_14,
@@ -38,6 +47,15 @@ const project_data = [
     meta: "SEP 2024 . Creative",
     title: "Bake Ur Day",
     slug: "bake-ur-day",
+  },
+  {
+    id: 8,
+    img_1: port_15,
+    img_2: port_16,
+    video_1: "/videos/toy-room.mp4",
+    meta: "SEP 2024 . Creative",
+    title: "Toy Room",
+    slug: "toy-room",
   },
   {
     id: 1,
@@ -57,33 +75,15 @@ const project_data = [
     title: "KALP",
     slug: "kalp",
   },
-  {
-    id: 8,
-    img_1: port_15,
-    img_2: port_16,
-    video_1: "/videos/toy-room.mp4",
-    meta: "SEP 2024 . Creative",
-    title: "Toy Room",
-    slug: "toy-room",
-  },
-  {
-    id: 3,
-    img_1: port_5,
-    img_2: port_6,
-    video_1: "/videos/the-kerala-table.mp4",
-    meta: "OCT 2024 . Creative",
-    title: "The Kerala Table",
-    slug: "the-kerala-table",
-  },
-  {
-    id: 5,
-    img_1: port_9,
-    img_2: port_10,
-    video_1: "/videos/the-kerala-table.mp4",
-    meta: "SEP 2024 . Creative",
-    title: "MBACET",
-    slug: "mba-cet",
-  },
+  // {
+  //   id: 5,
+  //   img_1: port_9,
+  //   img_2: port_10,
+  //   video_1: "/videos/the-kerala-table.mp4",
+  //   meta: "SEP 2024 . Creative",
+  //   title: "MBACET",
+  //   slug: "mba-cet",
+  // },
   {
     id: 4,
     img_1: port_7,
@@ -93,15 +93,15 @@ const project_data = [
     title: "Only Engineering",
     slug: "only-engineering",
   },
-  {
-    id: 2,
-    img_1: port_3,
-    img_2: port_4,
-    video_1: "/videos/the-kerala-table.mp4",
-    meta: "NOV 2024 . Creative",
-    title: "NEET Gyan",
-    slug: "neet-gyan",
-  },
+  // {
+  //   id: 2,
+  //   img_1: port_3,
+  //   img_2: port_4,
+  //   video_1: "/videos/the-kerala-table.mp4",
+  //   meta: "NOV 2024 . Creative",
+  //   title: "NEET Gyan",
+  //   slug: "neet-gyan",
+  // },
 ];
 
 // prop type

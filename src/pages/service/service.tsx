@@ -28,6 +28,20 @@ const service_data = [
   },
   {
     id: 2,
+    img: ser_img_4,
+    subtitle: "Creative Studio",
+    title: "CreatorNest",
+    text: "CreatorNest is our platform designed for content creators, influencers, and artists to manage their brand, monetize their audience, and collaborate creatively.",
+    lists: [
+      "Creator Brand Development",
+      "Monetization Strategies",
+      "Digital Portfolio Setup",
+      "Campaign Management",
+    ],
+    url: "creator-nest",
+  },
+  {
+    id: 3,
     img: ser_img_2,
     subtitle: "Creative Studio",
     title: "Branding & Multimedia Designing",
@@ -41,7 +55,7 @@ const service_data = [
     url: "Branding-Multimedia-Designing",
   },
   {
-    id: 3,
+    id: 4,
     img: ser_img_3,
     subtitle: "Creative Studio",
     title: "Media Production",
@@ -55,20 +69,6 @@ const service_data = [
     url: "media-production",
   },
   {
-    id: 4,
-    img: ser_img_4,
-    subtitle: "Creative Studio",
-    title: "CreatorNest",
-    text: "CreatorNest is our platform designed for content creators, influencers, and artists to manage their brand, monetize their audience, and collaborate creatively.",
-    lists: [
-      "Creator Brand Development",
-      "Monetization Strategies",
-      "Digital Portfolio Setup",
-      "Campaign Management",
-    ],
-    url: "creator-nest",
-  },
-    {
     id: 5,
     img: ser_img_5,
     subtitle: "Creative Studio",

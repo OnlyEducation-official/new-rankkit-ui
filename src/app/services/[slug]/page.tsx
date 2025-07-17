@@ -509,16 +509,35 @@ const serviceData: Record<string, DataContentType> = {
 
 
 export default function page({ params: {slug} }: { params: { slug: string } }) {
-    useScrollSmooth();
+    // useScrollSmooth();
 
-  useGSAP(() => {
-    const timer = setTimeout(() => {
-      charAnimation();
-      fadeAnimation();
-      servicePanel();
-    }, 100);
-    return () => clearTimeout(timer);
-  });
+//   useGSAP(() => {
+//     const timer = setTimeout(() => {
+//       charAnimation();
+//       fadeAnimation();
+//       servicePanel();
+//     }, 100);
+//     return () => clearTimeout(timer);
+//   });
+
+// useGSAP(() => {
+//   const timer = setTimeout(() => {
+//     charAnimation();
+//     fadeAnimation();
+//     servicePanel();
+
+//     // Force scroll to top (safely for ScrollSmoother)
+//     const smoother = ScrollSmoother.get();
+//     if (smoother) {
+//       smoother.scrollTo(0, false);
+//     } else {
+//       window.scrollTo(0, 0);
+//     }
+//   }, 100);
+
+//   return () => clearTimeout(timer);
+  
+// });
     return (
         serviceData[slug] ? (
             <SingleServicePage data={serviceData[slug]} />
