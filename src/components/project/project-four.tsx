@@ -5,17 +5,17 @@ import Image from "next/image";
 import port_1 from "../../../public/assets/img/portfolio-img/123123.svg";
 import port_2 from "../../../public/assets/img/portfolio-img/education.gif";
 
-import port_3 from "../../../public/assets/img/portfolio-img/neetgyaan.png";
-import port_4 from "../../../public/assets/img/portfolio-img/neet.gif";
+// import port_3 from "../../../public/assets/img/portfolio-img/neetgyaan.png";
+// import port_4 from "../../../public/assets/img/portfolio-img/neet.gif";
 
 import port_5 from "../../../public/assets/img/portfolio-img/tktlogoas.png";
 import port_6 from "../../../public/assets/img/portfolio-img/gif.gif";
 
-import port_7 from "../../../public/assets/img/portfolio-img/only engineering.png";
-import port_8 from "../../../public/assets/img/portfolio-img/only.gif";
+// import port_7 from "../../../public/assets/img/portfolio-img/only engineering.png";
+// import port_8 from "../../../public/assets/img/portfolio-img/only.gif";
 
-import port_9 from "../../../public/assets/img/portfolio-img/MbACETlogo.png";
-import port_10 from "../../../public/assets/img/portfolio-img/mba.gif";
+// import port_9 from "../../../public/assets/img/portfolio-img/MbACETlogo.png";
+// import port_10 from "../../../public/assets/img/portfolio-img/mba.gif";
 
 import port_11 from "../../../public/assets/img/portfolio-img/kalp.png";
 import port_12 from "../../../public/assets/img/portfolio-img/kalp.gif";
@@ -25,6 +25,9 @@ import port_14 from "../../../public/assets/img/portfolio-img/bake.gif";
 
 import port_15 from "../../../public/assets/img/portfolio-img/toyroomlogo.png";
 import port_16 from "../../../public/assets/img/portfolio-img/toy.gif";
+
+import port_17 from "../../../public/assets/img/portfolio-img/cossyboxcard.png";
+import port_18 from "../../../public/assets/img/portfolio-img/cossy-box-gif.gif";
 
 import Link from "next/link";
 
@@ -38,6 +41,15 @@ const project_data = [
     meta: "OCT 2024 . Creative",
     title: "The Kerala Table",
     slug: "the-kerala-table",
+  },
+  {
+    id: 3,
+    img_1: port_17,
+    img_2: port_18,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "OCT 2024 . Creative",
+    title: "Cossy Box",
+    slug: "cossy-box",
   },
   {
     id: 7,
@@ -84,15 +96,15 @@ const project_data = [
   //   title: "MBACET",
   //   slug: "mba-cet",
   // },
-  {
-    id: 4,
-    img_1: port_7,
-    img_2: port_8,
-    video_1: "/videos/the-kerala-table.mp4",
-    meta: "SEP 2024 . Creative",
-    title: "Only Engineering",
-    slug: "only-engineering",
-  },
+  // {
+  //   id: 4,
+  //   img_1: port_7,
+  //   img_2: port_8,
+  //   video_1: "/videos/the-kerala-table.mp4",
+  //   meta: "SEP 2024 . Creative",
+  //   title: "Only Engineering",
+  //   slug: "only-engineering",
+  // },
   // {
   //   id: 2,
   //   img_1: port_3,
