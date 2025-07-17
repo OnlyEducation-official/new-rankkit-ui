@@ -1,6 +1,6 @@
 "use client";
 import { gsap } from "gsap";
-import React from "react";
+import React, { useEffect } from "react";
 import { useGSAP } from "@gsap/react";
 import useScrollSmooth from "@/hooks/use-scroll-smooth";
 import { ScrollSmoother, ScrollTrigger, SplitText } from "@/plugins";
@@ -18,14 +18,19 @@ import FooterOne from "@/layouts/footers/footer-one";
 import HeaderTwo from "@/layouts/headers/header-two";
 
 const SingleServicePage = ({data}: {data: DataContentType}) => {
-    // useScrollSmooth();
-    // useGSAP(() => {
-    //     const timer = setTimeout(() => {
-    //         charAnimation();
-    //         titleAnimation();
-    //     }, 100);
-    //     return () => clearTimeout(timer);
-    // });
+   
+    useScrollSmooth();
+
+  useGSAP(() => {
+    const timer = setTimeout(() => {
+      charAnimation();
+      fadeAnimation();
+      servicePanel();
+    }, 100);
+    return () => clearTimeout(timer);
+  });
+
+
     return (
         <div id="smooth-wrapper">
             <div id="smooth-content">

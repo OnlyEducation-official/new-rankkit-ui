@@ -106,6 +106,13 @@ const service_data = [
     link:"/services/web-development"
   },
   {
+    id: 4,
+    title: "CreatorNest",
+    desc: "CreatorNest is our platform designed for content creators, influencers, and artists to manage their brand, monetize their audience, and collaborate creatively.",
+    category: [ "Portfolio Setup", "Brand Creator", "Monetization "],
+    link:"/services/creator-nest"
+  },
+  {
     id: 2,
     title: "Branding",
     desc: "From logos to complete brand systems, we craft compelling visuals that express your identity and connect with your audience on every platform.",
@@ -119,21 +126,14 @@ const service_data = [
     category: ["Podcast Editing", "Video Production", "Photography"],
     link:"/services/media-production"
   },
-    {
-    id: 4,
-    title: "CreatorNest",
-    desc: "CreatorNest is our platform designed for content creators, influencers, and artists to manage their brand, monetize their audience, and collaborate creatively.",
-    category: [ "Portfolio Setup", "Brand Creator", "Monetization "],
-    link:"/services/creator-nest"
-  },
-     {
+  {
     id: 5,
     title: "SEO Services",
     desc: "Our SEO experts optimize your online presence to drive organic traffic, improve ranking, and enhance user engagement through on-page and off-page strategies.",
     category: [ "SEO Audits", "Link Building", "Keyword Research "],
     link:"/services/seo-services"
   },
-      {
+  {
     id: 6,
     title: "Digital Marketing",
     desc: "We connect your brand with the right audience using data-driven campaigns, helping you reach your marketing goals through effective online channels.",

@@ -275,5 +275,40 @@
         "image": "/assets/img/inner-project/portfolio-details-3/toy-4.jpg"
       }
     ]
-  }
+  },
+  {
+  "title": "Cossy Box",
+  "slug": "cossy-box",
+  "website": "https://cossybox.in",
+  "banner": "/assets/img/portfolio-img/cossylaptopmock.png",
+  "sections": [
+    {
+      "heading": "The Challenge",
+      "tagline": "Digital Disconnect",
+      "description": "Cossy Box, despite its cozy interiors and curated culinary experiences, lacked a digital presence that mirrored its in-store ambiance. The absence of an intuitive website and online ordering flow was limiting its reach among urban diners who prioritize digital-first discovery, table bookings, and delivery convenience.",
+      "image": "/assets/img/portfolio-img/cossylaptopmock.png"
+    },
+    {
+      "heading": "The Solution",
+      "tagline": "Strategic Revival",
+      "description": "We crafted a premium digital experience reflecting Cossy Box’s warm yet sophisticated vibe. The new site featured immersive visuals, mood-based menu browsing, and smooth reservation/delivery integrations. A centralized CMS made content updates effortless, while mobile responsiveness ensured consistency across all screen sizes, turning browsers into loyal diners.",
+      "images": [
+        {
+          "type": "video",
+          "src": "/videos/cossy-box.mp4"
+        },
+        {
+          "type": "image",
+          "src": "/assets/img/portfolio-img/cossymockphone.png"
+        }
+      ]
+    },
+    {
+      "heading": "The Impact",
+      "tagline": "Proof in Performance",
+      "description": "Cossy Box saw a 4x jump in table reservations within the first quarter. The revamped UI/UX elevated its perception as a lifestyle destination, not just a dining space. Social shares increased 3.5x, average session time rose by 60%, and the streamlined order flow boosted delivery revenue significantly.",
+      "image": "/assets/img/inner-project/portfolio-details-3/cossy-impact.jpg"
+    }
+  ]
+}
 ]

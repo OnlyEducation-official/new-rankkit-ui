@@ -22,19 +22,21 @@ type IProject = {
 };
 
 const project_data: IProject[] = [
+  
+  
   {
     id: 1,
+    cls: "",
+    cls_2: "height-6",
+    img: p_6,
+    link:"/portfolio/toy-room",
+  },
+  {
+    id: 2,
     cls: "tp-project-mr",
     cls_2: "height-1",
     img: p_1,
     link:"/portfolio/only-education"
-  },
-  {
-    id: 2,
-    cls: "text-end",
-    cls_2: "height-2 d-inline-flex justify-content-end",
-    img: p_2,
-    link:"/portfolio/bake-ur-day"
   },
   {
     id: 3,
@@ -45,25 +47,27 @@ const project_data: IProject[] = [
   },
   {
     id: 4,
-    cls: "",
-    cls_2: "height-4",
-    img: p_4,
-    link:"/portfolio/kalp"
-  },
-  {
-    id: 5,
     cls: "tp-project-ml",
     cls_2: "height-5",
     img: p_5,
     link:"/portfolio/the-kerala-table"
   },
   {
+    id: 5,
+    cls: "text-end",
+    cls_2: "height-2 d-inline-flex justify-content-end",
+    img: p_2,
+    link:"/portfolio/bake-ur-day"
+  },
+  {
     id: 6,
     cls: "",
-    cls_2: "height-6",
-    img: p_6,
-    link:"/portfolio/toy-room",
+    cls_2: "height-4",
+    img: p_4,
+    link:"/portfolio/kalp"
   },
+  
+  
 ];
 
 function ProjectItem({ item }: { item: IProject }) {
