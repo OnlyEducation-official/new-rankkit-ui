@@ -128,6 +128,19 @@ export default function FooterOne() {
         </div> */}
         {/* copyright area end */}
       </div>
+        <div style={{ 
+          textAlign: "center", 
+          color: "#fff", 
+          paddingBlock: "16px", 
+          background: '#f02a36', 
+          fontSize: "16px", 
+          display: 'flex', 
+          justifyContent: 'center', 
+          alignItems: 'center'
+        }}>
+          <span style={{ fontSize: '18px', paddingInlineEnd: '3px' }}>©</span>
+           Rankkit, All Rights Reserved.
+        </div>
       {/* footer area start */}
     </footer>
   );

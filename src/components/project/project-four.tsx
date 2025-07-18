@@ -29,18 +29,30 @@ import port_16 from "../../../public/assets/img/portfolio-img/toy.gif";
 import port_17 from "../../../public/assets/img/portfolio-img/cossyboxcard.png";
 import port_18 from "../../../public/assets/img/portfolio-img/cossy-box-gif.gif";
 
+import port_19 from "../../../public/assets/img/portfolio-img/ITClogocard.png";
+import port_20 from "../../../public/assets/img/portfolio-img/itc_gif.gif";
+
 import Link from "next/link";
 
 // portfolio data
 const project_data = [
   {
-    id: 3,
+    id: 1,
     img_1: port_5,
     img_2: port_6,
     video_1: "/videos/the-kerala-table.mp4",
     meta: "OCT 2024 . Creative",
     title: "The Kerala Table",
     slug: "the-kerala-table",
+  },
+  {
+    id:2,
+    img_1: port_19,
+    img_2: port_20,
+    video_1: "/videos/the-kerala-table.mp4",
+    meta: "OCT 2024 . Creative",
+    title: "ITC",
+    slug: "itc",
   },
   {
     id: 3,

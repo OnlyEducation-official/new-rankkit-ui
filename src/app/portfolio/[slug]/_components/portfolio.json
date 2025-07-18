@@ -277,37 +277,73 @@
     ]
   },
   {
-  "title": "Cossy Box",
-  "slug": "cossy-box",
-  "website": "https://cossybox.in",
-  "banner": "/assets/img/portfolio-img/cossylaptopmock.png",
+    "title": "Cossy Box",
+    "slug": "cossy-box",
+    "website": "https://cossybox.in",
+    "banner": "/assets/img/portfolio-img/cossylaptopmock.png",
+    "sections": [
+      {
+        "heading": "The Challenge",
+        "tagline": "An introduction",
+        "description": "Cossy Box, despite its cozy interiors and curated culinary experiences, lacked a digital presence that mirrored its in-store ambiance. The absence of an intuitive website and online ordering flow was limiting its reach among urban diners who prioritize digital-first discovery, table bookings, and delivery convenience.",
+        "image": "/assets/img/portfolio-img/cossylaptopmock.png"
+      },
+      {
+        "heading": "The Solution",
+        "tagline": "Strategic Revival",
+        "description": "We crafted a premium digital experience reflecting Cossy Box’s warm yet sophisticated vibe. The new site featured immersive visuals, mood-based menu browsing, and smooth reservation/delivery integrations. A centralized CMS made content updates effortless, while mobile responsiveness ensured consistency across all screen sizes, turning browsers into loyal diners.",
+        "images": [
+          {
+            "type": "video",
+            "src": "/videos/cossy-box.mp4"
+          },
+          {
+            "type": "image",
+            "src": "/assets/img/portfolio-img/cossymockphone.png"
+          }
+        ]
+      },
+      {
+        "heading": "The Impact",
+        "tagline": "Proof in Performance",
+        "description": "Cossy Box saw a 4x jump in table reservations within the first quarter. The revamped UI/UX elevated its perception as a lifestyle destination, not just a dining space. Social shares increased 3.5x, average session time rose by 60%, and the streamlined order flow boosted delivery revenue significantly.",
+        "image": "/assets/img/inner-project/portfolio-details-3/cossy-impact.jpg"
+      }
+    ]
+  },
+  {
+  "title": "ITC Limited",
+  "slug": "itc",
+  "website": "https://www.itcportal.com",
+  "banner": "",
+  "bannerVideo": "/videos/ITC_LOLLA_COVER_VID.mp4",
   "sections": [
     {
       "heading": "The Challenge",
-      "tagline": "Digital Disconnect",
-      "description": "Cossy Box, despite its cozy interiors and curated culinary experiences, lacked a digital presence that mirrored its in-store ambiance. The absence of an intuitive website and online ordering flow was limiting its reach among urban diners who prioritize digital-first discovery, table bookings, and delivery convenience.",
-      "image": "/assets/img/portfolio-img/cossylaptopmock.png"
+      "tagline": "An introduction",
+      "description": "Despite being a century-old conglomerate with a diverse portfolio spanning FMCG, hospitality, and agribusiness, ITC faced a perception challenge in digitally connecting with Gen Z and millennial consumers. Its web presence lacked personalization, real-time engagement, and the storytelling needed to reflect its innovation beyond tobacco roots.",
+      "image": "/assets/img/portfolio-img/itclaptopmock.png"
     },
     {
       "heading": "The Solution",
       "tagline": "Strategic Revival",
-      "description": "We crafted a premium digital experience reflecting Cossy Box’s warm yet sophisticated vibe. The new site featured immersive visuals, mood-based menu browsing, and smooth reservation/delivery integrations. A centralized CMS made content updates effortless, while mobile responsiveness ensured consistency across all screen sizes, turning browsers into loyal diners.",
+      "description": "We reimagined ITC’s online identity with a unified digital framework that elevated its multifaceted brand voice. A dynamic homepage with immersive storytelling brought each vertical—FMCG, Hotels, Paperboards, Agri, and Infotech—to life. The redesigned platform incorporated sustainability highlights, real-time investor dashboards, and SEO-rich product showcases, delivering trust at scale.",
       "images": [
         {
           "type": "video",
-          "src": "/videos/cossy-box.mp4"
+          "src": "/videos/Singleportfolio_vid1.mp4"
         },
         {
-          "type": "image",
-          "src": "/assets/img/portfolio-img/cossymockphone.png"
+          "type": "video",
+          "src": "/videos/Singleportfolio_vid2.mp4"
         }
       ]
     },
     {
       "heading": "The Impact",
       "tagline": "Proof in Performance",
-      "description": "Cossy Box saw a 4x jump in table reservations within the first quarter. The revamped UI/UX elevated its perception as a lifestyle destination, not just a dining space. Social shares increased 3.5x, average session time rose by 60%, and the streamlined order flow boosted delivery revenue significantly.",
-      "image": "/assets/img/inner-project/portfolio-details-3/cossy-impact.jpg"
+      "description": "Post-launch, ITC saw a 5x increase in page engagement across its non-tobacco verticals. The refreshed brand positioning improved its digital trust metrics, with average session duration increasing by 70%. Traffic from Tier-1 and Tier-2 cities surged, and sustainability content shares grew 4.2x—reinforcing ITC’s role as a future-ready enterprise.",
+      "image": "/assets/img/inner-project/portfolio-details-3/itc-impact.jpg"
     }
   ]
 }

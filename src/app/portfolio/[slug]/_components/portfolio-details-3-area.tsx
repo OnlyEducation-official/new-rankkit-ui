@@ -12,24 +12,9 @@ import { projectThreeAnimation } from '@/utils/project-anim';
 import img from '../../../../../public/assets/img/portfolio-img/phoneonlyedu2.jpeg';
 import HeaderTwo from '@/layouts/headers/header-two';
 import FooterOne from '@/layouts/footers/footer-one';
+import { type projectType } from '../page';
 
-  type project = {
-    title: string;
-    website: string;
-    banner: string;
-    sections: {
-      heading: string;
-      description: string;
-      image?: string;
-      images: {
-        type: 'image' | 'video';
-        src: string;
-      }[];
-      tagline?: string;
-    }[];
-  };
-
-export default function PortfolioDetailsThreeArea({ project }: { project: project }) {
+export default function PortfolioDetailsThreeArea({ project }: { project: projectType }) {
   useScrollSmooth();
 
   useGSAP(() => {
@@ -97,7 +82,7 @@ export default function PortfolioDetailsThreeArea({ project }: { project: projec
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tp-project-details-3-thumb-box">
-                      <Image
+                      {project.banner && (<Image
                         data-speed=".8"
                         src={project.banner}
                         alt="portfolio-section-img"
@@ -105,7 +90,17 @@ export default function PortfolioDetailsThreeArea({ project }: { project: projec
                         height={800}
                         style={{  aspectRatio: '1.95 / 1' }}
                         // objectFit='fill'
-                      />
+                      />)}
+                      {project.bannerVideo && (<video
+                        src={project.bannerVideo}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        width={1500}
+                        height={800}
+                        // style={{ aspectRatio: '1.95 / 1' }}
+                      ></video>)}
                     </div>
                   </div>
                 </div>

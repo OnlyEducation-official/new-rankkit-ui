@@ -145,38 +145,41 @@ export default function ServiceOne() {
   
   return (
     <div className="tp-service-3-area pt-130 pb-130">
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-9">
-            <div className="tp-service-3-title-box mb-60 p-relative">
-              <div className="tp-service-3-icon">
-                <Image src={icon} alt="icon" />
+      <div className="">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-9">
+              <div className="tp-service-3-title-box mb-60 p-relative">
+                <div className="tp-service-3-icon">
+                  <Image src={icon} alt="icon" />
+                </div>
+                <span className="tp-section-subtitle-2 tp_fade_bottom">
+                  <span>
+                    <FirstBracket />
+                  </span>
+                  <span className="tp-subtitle-text tp_text_invert">
+                    Our approach
+                  </span>
+                  <span>
+                    <FirstBracketTwo />
+                  </span>
+                </span>
+                <h4 className="tp-section-title-90 tp_text_invert tp_fade_bottom">
+                  Creative <br /> development studio
+                </h4>
               </div>
-              <span className="tp-section-subtitle-2 tp_fade_bottom">
-                <span>
-                  <FirstBracket />
-                </span>
-                <span className="tp-subtitle-text tp_text_invert">
-                  Our approach
-                </span>
-                <span>
-                  <FirstBracketTwo />
-                </span>
-              </span>
-              <h4 className="tp-section-title-90 tp_text_invert tp_fade_bottom">
-                Creative <br /> development studio
-              </h4>
             </div>
           </div>
         </div>
 
         {service_data.map((item) => (
-          <div key={item.id} className="tp-service-3-wrap tp_fade_bottom">
+          <div className="hover-bg tp-btn-zikzak-sm">
+          <div key={item.id} className="tp-service-3-wrap tp_fade_bottom container">
             <div className="row align-items-start">
               <div className="col-xl-3 col-lg-3">
                 <div className="tp-service-3-title-box">
                   <h4 className="tp-service-3-title">
-                    <Link href={`${item.link}`}>{item.title}</Link>
+                    <Link href={`${item.link}`} className="">{item.title}</Link>
                   </h4>
                 </div>
               </div>
@@ -196,9 +199,9 @@ export default function ServiceOne() {
                     className="tp-btn-zikzak-sm p-relative"
                  href={`${item.link}`}
                   >
-                    <span className="zikzak-content">
+                    <span className="zikzak-content" style={{ color: "#0b0b63 !important" }}>
                       See <br /> Details
-                      <RightArrow clr="currentColor" />
+                      <RightArrow clr="#0b0b63" />
                     </span>
                     <span>
                       <SvgBg />
@@ -207,6 +210,7 @@ export default function ServiceOne() {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         ))}
       </div>
