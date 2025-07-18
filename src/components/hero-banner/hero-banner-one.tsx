@@ -31,9 +31,9 @@ const HeroBannerOne = () => {
               <div className="tp-hero-title-box text-center p-relative">
                 <h1 className="tp-hero-title tp_fade_bottom">
                   <span className="p-relative ">
-                    Creative
-                    <span className="tp-hero-subtitle d-none d-lg-block ">
-                      Hello <br /> People! We’re
+                    CreativeHub 
+                    <span className="tp-hero-subtitle d-none d-lg-block .text-danger" style={{ color: '#f02a36' }}>
+                      All what <br /> Your brand needs
                     </span>
                     <span className="tp-hero-shape-2 d-none d-md-block">
                       <Image
@@ -45,7 +45,7 @@ const HeroBannerOne = () => {
                     </span>
                   </span>
                   <br />
-                  Digital
+                  Agency
                   <span className="tp-hero-title-img">
                     <Image
                       className="tp-zoom-img"

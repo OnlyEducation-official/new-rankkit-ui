@@ -8,3 +8,34 @@
   height: 25px;
   margin-right: 10px;
 }
+
+.hover-bg {
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0b0b63;
+    transition-duration: 1000ms;
+    color: white;
+
+    // Make sure all nested text inherits white
+    * {
+      color: white !important;
+    }
+
+    // Optional: override SVG or link-specific colors if needed
+    a {
+      color: white !important;
+    }
+
+    // svg {
+    //   fill: white !important;
+    //   stroke: white !important;
+    // }
+  }
+}
+
+.hover-text {
+  &:hover {
+    color: white; // Change text color on hover
+  }
+}

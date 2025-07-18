@@ -11,6 +11,8 @@ import p_3 from "../../../public/assets/img/portfolio-img/mbacet h.png";
 import p_4 from "../../../public/assets/img/portfolio-img/kalp h.png";
 import p_5 from "../../../public/assets/img/portfolio-img/tkt h.png";
 import p_6 from "../../../public/assets/img/portfolio-img/toyroom h.png";
+import p_7 from "../../../public/assets/img/portfolio-img/logoITC h.png";
+import p_8 from "../../../public/assets/img/portfolio-img/cossybox h.png";
 
 // type
 type IProject = {
@@ -23,7 +25,20 @@ type IProject = {
 
 const project_data: IProject[] = [
   
-  
+  {
+    id: 4,
+    cls: "tp-project-mr",
+    cls_2: "height-3",
+    img: p_8,
+    link:"/portfolio/cossybox"
+  },
+  {
+    id: 3,
+    cls: "",
+    cls_2: "height-1",
+    img: p_1,
+    link:"/portfolio/only-education"
+  },
   {
     id: 1,
     cls: "",
@@ -32,41 +47,45 @@ const project_data: IProject[] = [
     link:"/portfolio/toy-room",
   },
   {
-    id: 2,
-    cls: "tp-project-mr",
-    cls_2: "height-1",
-    img: p_1,
-    link:"/portfolio/only-education"
-  },
-  {
-    id: 3,
+    id: 5,
     cls: "tp-project-mr",
     cls_2: "height-3",
     img: p_3,
     link:"/portfolio/mba-cet"
   },
+  
+  
+  
+  
   {
-    id: 4,
-    cls: "tp-project-ml",
+    id: 6,
+    cls: "",
     cls_2: "height-5",
     img: p_5,
     link:"/portfolio/the-kerala-table"
   },
   {
-    id: 5,
+    id: 2,
+    cls: "",
+    cls_2: "height-6",
+    img: p_7,
+    link:"/portfolio/itc",
+  },
+  {
+    id: 7,
     cls: "text-end",
     cls_2: "height-2 d-inline-flex justify-content-end",
     img: p_2,
     link:"/portfolio/bake-ur-day"
   },
+  
   {
-    id: 6,
+    id: 8,
     cls: "",
     cls_2: "height-4",
     img: p_4,
     link:"/portfolio/kalp"
   },
-  
   
 ];
 
@@ -108,14 +127,14 @@ const ProjectOne = ({style_2=false}:IProps) => {
               <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="tp-project-left-wrap">
-                    {project_data.slice(0, 3).map((item, i) => (
+                    {project_data.slice(0, 4).map((item, i) => (
                       <ProjectItem key={item.id} item={item} />
                     ))}
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="tp-project-right-wrap">
-                    {project_data.slice(3, 6).map((item) => (
+                    {project_data.slice(4, 8).map((item) => (
                       <ProjectItem key={item.id} item={item} />
                     ))}
 

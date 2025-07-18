@@ -2,10 +2,11 @@ import React from 'react';
 import portfolioData from '../[slug]/_components/portfolio.json';
 import PortfolioDetailsThreeArea from './_components/portfolio-details-3-area';
 
-type project = {
+export type projectType = {
     title: string;
     website: string;
     banner: string;
+    bannerVideo?: string;
     sections: {
       heading: string;
       description: string;
@@ -32,5 +33,5 @@ export default function PortfolioDetailPage({ params }: { params: { slug: string
     return <div>Project not found</div>;
   }
 
-  return <PortfolioDetailsThreeArea project={project as project} />;
+  return <PortfolioDetailsThreeArea project={project as projectType} />;
 }

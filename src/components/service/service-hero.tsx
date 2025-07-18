@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 // image
-import ser_hero from "../../../public//assets/img/inner-service/hero/hero-1.jpg";
-import ser_hero_shape from "../../../public//assets/img/inner-service/hero/hero-shape-1.jpg";
+import services_cover from "../../../public//assets/img/inner-service/hero/services_cover.png";
+// import ser_hero_shape from "../../../public//assets/img/inner-service/hero/hero-shape-1.jpg";
 
 export default function ServiceHero() {
   return (
@@ -27,17 +27,17 @@ export default function ServiceHero() {
               <div className="sv-hero-thumb-box">
                 <Image
                   data-speed=".7"
-                  src={ser_hero}
+                  src={services_cover}
                   alt="ser_hero-img"
                   style={{height:"auto"}}
                 />
               </div>
-              <Image
+              {/* <Image
                 className="sv-hero-thumb-shape d-none d-lg-block"
                 src={ser_hero_shape}
                 alt="ser_hero-shape"
                 style={{height:"auto"}}
-              />
+              /> */}
             </div>
           </div>
         </div>
