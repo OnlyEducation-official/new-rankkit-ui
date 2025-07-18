@@ -8,19 +8,23 @@ import ErrorMsg from '../error-msg';
 type FormData = {
   name: string;
   subject: string;
-  organizationName: string;
+  organizationName?: string;
   message: string;
-  links: string;
-  number: number;
+  links?: string;
+  number: string;
 };
 
 const schema = yup.object().shape({
   name: yup.string().required().label("Name"),
   subject: yup.string().required().label("subject"),
-  organizationName: yup.string().required().label("Organization Name"),
+  organizationName: yup.string().optional(),
   message: yup.string().required().label("Message"),
-  links: yup.string().required().label("Website/Social Media Link"),
-  number: yup.number().required().max(10).min(10).label("Number"),
+  links: yup.string().optional(),
+  number: yup
+  .string()
+  .required("Phone number is required")
+  .matches(/^[0-9]{10}$/, "Phone number must be exactly 10 digits")
+  .label("Phone Number")
 });
 
 // prop type
@@ -36,12 +40,26 @@ export default function ContactForm({ btnCls = "" }: IProps) {
   } = useForm<FormData>({
     resolver: yupResolver(schema),
   });
-  const onSubmit = handleSubmit((data: FormData) => {
-    alert(JSON.stringify(data));
-    reset();
+  console.log('errors', errors);
+  const onSubmit = async (data: FormData) => {
+    // alert(JSON.stringify(data));
+    const res = await fetch("/api/send-email", {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: { "Content-Type": "application/json" },
   });
+
+  const result = await res.json();
+  console.log('result', result);
+  if (result.success) {
+    alert("Email sent!");
+  } else {
+    alert("Failed to send email");
+  }
+    reset();
+  };
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={handleSubmit(onSubmit)}>
       <div className="cn-contactform-input mb-25">
         <label>Name</label>
         <input
@@ -60,10 +78,10 @@ export default function ContactForm({ btnCls = "" }: IProps) {
           type="text"
           placeholder="Your Company Name"
         />
-        <ErrorMsg msg={errors.organizationName?.message!} />
+        {/* <ErrorMsg msg={errors.organizationName?.message!} /> */}
       </div>
       <div className="cn-contactform-input mb-25">
-        <label>Subject</label>
+        <label>Email</label>
         <input
           id="subject"
           {...register("subject")}
@@ -81,14 +99,13 @@ export default function ContactForm({ btnCls = "" }: IProps) {
           type="text"
           placeholder="Website or Social Link"
         />
-        <ErrorMsg msg={errors.links?.message!} />
       </div>
       <div className="cn-contactform-input mb-25">
         <label>Phone</label>
         <input
           id="number"
           {...register("number")}
-          type="text"
+          type="number"
           placeholder="Phone number"
         />
         <ErrorMsg msg={errors.number?.message!} />

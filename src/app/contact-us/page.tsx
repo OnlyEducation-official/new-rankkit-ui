@@ -8,7 +8,7 @@ import React from "react";
 function page() {
   return (
     <>
-        <HeaderTwo />
+      <HeaderTwo />
       <ContactTwo />
       <FooterOne />
     </>
