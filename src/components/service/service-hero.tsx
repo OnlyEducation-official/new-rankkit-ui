@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 // image
-import services_cover from "../../../public//assets/img/inner-service/hero/services_cover.png";
+// import services_cover from "../../../public/assets/img/inner-service/hero/services_cover.png";
+import services_cover from "../../../public/assets/img/inner-service/hero/services_cover.png";
 // import ser_hero_shape from "../../../public//assets/img/inner-service/hero/hero-shape-1.jpg";
 
 export default function ServiceHero() {
